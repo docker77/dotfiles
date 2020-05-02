@@ -1,0 +1,7 @@
+pane	0	1	:nvim	1	:*	1	:/home/rust/.local/share/nvim/plugged/gruvbox-material/colors	1	nvim	:nvim
+pane	0	1	:nvim	1	:*	2	:/home/rust	0	zsh	:
+pane	2	1	:nvim	1	:*	1	:/home/rust/projects/tf	1	nvim	:nvim
+pane	2	1	:nvim	1	:*	2	:/home/rust	0	zsh	:
+window	0	1	1	:*	74f8,107x79,0,0[107x58,0,0,0,107x20,0,59,3]
+window	2	1	1	:*	7785,107x79,0,0[107x61,0,0,6,107x17,0,62,7]
+state	2	

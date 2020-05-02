@@ -1,0 +1,6 @@
+pane	Scrapy	1	:nvim	1	:*	1	:/home/rust/projects/russiangost/rgost/rgost/spiders	1	nvim	:nvim
+pane	Scrapy	1	:nvim	1	:*	2	:/home/rust/projects/russiangost/rgost	0	python3	:/usr/bin/python3 /usr/local/bin/jupyter-notebook
+pane	Scrapy	2	:zsh	0	:-	1	:/home/rust	1	zsh	:
+window	Scrapy	1	1	:*	4e85,107x79,0,0[107x39,0,0,6,107x39,0,40,7]
+window	Scrapy	2	0	:-	ec35,107x79,0,0,26
+state	Scrapy	

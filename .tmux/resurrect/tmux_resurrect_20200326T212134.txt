@@ -1,0 +1,6 @@
+pane	Experimens	1	:Main	1	:*	1	:/home/rust/projects/tf	1	nvim	:nvim
+pane	Experimens	1	:Main	1	:*	2	:/home/rust/projects/tf	0	zsh	:
+pane	Experimens	2	:zsh	0	:-	1	:/home/rust	1	zsh	:
+window	Experimens	1	1	:*	f0ef,107x82,0,0[107x61,0,0,0,107x20,0,62,1]
+window	Experimens	2	0	:-	be05,107x82,0,0,8
+state	Experimens	

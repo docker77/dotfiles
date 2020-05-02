@@ -1,0 +1,6 @@
+pane	Scrapy	1	:python	1	:*Z	1	:/home/rust	0	nvim	:nvim
+pane	Scrapy	1	:python	1	:*Z	2	:/home/rust/projects/russiangost/rgost	1	python	:/home/rust/projects/russiangost/rgost_env/bin/python /home/rust/projects/russiangost/rgost_env/bin/scrapy crawl russiangost -s JOBDIR=jobs -o others.csv
+pane	Scrapy	2	:Jupyter	0	:-	1	:/home/rust/projects/russiangost/rgost	1	python3	:/usr/bin/python3 /usr/local/bin/jupyter-notebook
+window	Scrapy	1	1	:*Z	53cb,107x79,0,0[107x56,0,0,6,107x22,0,57,26]
+window	Scrapy	2	0	:-	d804,107x79,0,0,7
+state	Scrapy	

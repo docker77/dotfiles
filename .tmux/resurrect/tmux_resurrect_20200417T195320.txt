@@ -1,0 +1,4 @@
+pane	0	1	:nvim	1	:*	1	:/mnt/c/Manuals/[Дмитрий\ Лаврик] Javascript. Интенсивный курс для программистов/Урок 1/js-lesson1-src	1	nvim	:nvim .
+pane	0	1	:nvim	1	:*	2	:/home/rust/projects/myapp	0	zsh	:
+window	0	1	1	:*	2a58,191x45,0,0{130x45,0,0,0,60x45,131,0,1}
+state	0	

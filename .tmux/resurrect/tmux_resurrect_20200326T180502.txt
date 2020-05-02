@@ -1,0 +1,4 @@
+pane	Python programming	1	:zsh	1	:*	1	:/home/rust/projects/tf	0	nvim	:nvim
+pane	Python programming	1	:zsh	1	:*	2	:/mnt/d/Downloads/nerd-fonts	1	zsh	:
+window	Python programming	1	1	:*	5e68,98x83,0,0[98x58,0,0,28,98x24,0,59,36]
+state	Python programming	

@@ -1,0 +1,4 @@
+pane	1	1	:zsh	1	:*	1	:/home/rust	1	zsh	:
+pane	1	1	:zsh	1	:*	2	:/home/rust	0	zsh	:
+window	1	1	1	:*	6f00,107x90,0,0[107x64,0,0,8,107x26,0,65,4]
+state	1	

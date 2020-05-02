@@ -1,0 +1,7 @@
+pane	Scrapy	1	:htop	1	:*	1	:/home/rust	0	nvim	:nvim
+pane	Scrapy	1	:htop	1	:*	2	:/home/rust	1	htop	:htop
+pane	Scrapy	1	:htop	1	:*	3	:/home/rust/projects/russiangost/rgost	0	python	:/home/rust/projects/russiangost/rgost_env/bin/python /home/rust/projects/russiangost/rgost_env/bin/scrapy crawl russiangost -o others.csv
+pane	Scrapy	2	:Jupyter	0	:-	1	:/home/rust/projects/russiangost/rgost	1	python3	:/usr/bin/python3 /usr/local/bin/jupyter-notebook
+window	Scrapy	1	1	:*	cefc,107x79,0,0[107x28,0,0,6,107x27,0,29,39,107x22,0,57,26]
+window	Scrapy	2	0	:-	d804,107x79,0,0,7
+state	Scrapy	

@@ -1,0 +1,8 @@
+pane	0	1	:test	1	:*	1	:/home/rust/projects/wagtail/mysite	1	python	:/usr/bin/python -O /usr/bin/ranger
+pane	0	1	:test	1	:*	2	:/home/rust/projects/wagtail/mysite	0	zsh	:
+pane	3	1	:zsh	1	:*	1	:/mnt/c/Users/rustam	1	zsh	:
+pane	6	1	:nvim	1	:*	1	:/home/rust/.config/nvim	1	nvim	:nvim
+window	0	1	1	:*	aa24,107x91,0,0[107x65,0,0,15,107x25,0,66,26]
+window	3	1	1	:*	5968,236x60,0,0,19
+window	6	1	1	:*	d18f,101x108,0,0,28
+state	0	

@@ -1,0 +1,10 @@
+pane	1	1	:nvim	1	:*	1	:/home/rust/projects/russiangost/rgost/rgost/spiders	1	nvim	:nvim
+pane	1	1	:nvim	1	:*	2	:/home/rust/projects/russiangost/rgost	0	python	:/home/rust/projects/russiangost/rgost_env/bin/python /home/rust/projects/russiangost/rgost_env/bin/scrapy crawl russiangost
+pane	1	1	:nvim	1	:*	3	:/home/rust/projects/russiangost/rgost	0	htop	:htop
+pane	1	2	:zsh	0	:-	1	:/home/rust/projects/russiangost/rgost	1	zsh	:
+pane	Flask	1	:nvim	1	:*	1	:/home/rust/projects/experiments	1	nvim	:nvim
+pane	Flask	1	:nvim	1	:*	2	:/home/rust/projects/experiments	0	zsh	:
+window	1	1	1	:*	8323,107x79,0,0[107x38,0,0,3,107x40,0,39{53x40,0,39,6,53x40,54,39,8}]
+window	1	2	0	:-	c144,191x45,0,0,7
+window	Flask	1	1	:*	1e79,107x79,0,0[107x62,0,0,1,107x16,0,63,2]
+state	1	Flask

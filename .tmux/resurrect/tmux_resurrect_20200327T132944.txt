@@ -1,0 +1,4 @@
+pane	2	1	:nvim	1	:*Z	1	:/home/rust/projects/tf	1	nvim	:nvim
+pane	2	1	:nvim	1	:*Z	2	:/home/rust	0	zsh	:
+window	2	1	1	:*Z	7785,107x79,0,0[107x61,0,0,6,107x17,0,62,7]
+state	2	

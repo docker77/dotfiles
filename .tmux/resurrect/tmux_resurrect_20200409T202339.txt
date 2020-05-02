@@ -1,0 +1,4 @@
+pane	0	1	:nvim	1	:*Z	1	:/home/rust/projects/graphql/graphql-shop-example	0	python	:python ./manage.py runserver
+pane	0	1	:nvim	1	:*Z	2	:/home/rust/projects/graphql/graphql-shop-example/catalog	1	nvim	:nvim
+window	0	1	1	:*Z	493e,191x43,0,0[191x20,0,0,0,191x22,0,21,1]
+state	0	

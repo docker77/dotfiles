@@ -1,0 +1,6 @@
+pane	0	1	:test	1	:*	1	:/home/rust/.config/nvim	0	nvim	:nvim
+pane	0	1	:test	1	:*	2	:/mnt/d/Downloads/nerd-fonts/ttf-nerd-fonts-input	1	zsh	:
+pane	0	2	:zsh	0	:-	1	:/home/rust	1	zsh	:
+window	0	1	1	:*	8302,107x83,0,0[107x52,0,0,1,107x30,0,53,15]
+window	0	2	0	:-	be9d,98x83,0,0,0
+state	0	

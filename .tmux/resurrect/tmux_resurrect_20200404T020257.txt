@@ -1,0 +1,4 @@
+pane	Scrapy	1	:zsh	1	:*	1	:/home/rust/projects/russiangost/rgost/rgost/spiders	0	nvim	:nvim
+pane	Scrapy	1	:zsh	1	:*	2	:/home/rust/projects/russiangost/rgost	1	zsh	:
+window	Scrapy	1	1	:*	4e85,107x79,0,0[107x39,0,0,6,107x39,0,40,7]
+state	Scrapy	

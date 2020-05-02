@@ -1,0 +1,4 @@
+pane	Python programming	1	:nvim	1	:*	1	:/home/rust/.config/nvim	1	nvim	:nvim
+pane	Python programming	1	:nvim	1	:*	2	:/home/rust/projects/tf	0	zsh	:
+window	Python programming	1	1	:*	0de8,107x91,0,0[107x60,0,0,28,107x30,0,61,36]
+state	Python programming	

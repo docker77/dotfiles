@@ -1,0 +1,12 @@
+pane	0	1	:nvim	1	:*	1	:/home/rust/projects/reactexp/ecom	1	nvim	:lf
+pane	0	1	:nvim	1	:*	2	:/home/rust/projects/reactexp/ecom	0	npm	:npm
+pane	1	1	:nvim	1	:*	1	:/home/rust	1	zsh	:
+pane	2	1	:zsh	1	:*	1	:/home/rust	1	zsh	:
+pane	3	1	:zsh	1	:*	1	:/home/rust	1	zsh	:
+pane	4	1	:zsh	1	:*	1	:/home/rust	1	zsh	:
+window	0	1	1	:*	b127,191x41,0,0{125x41,0,0,0,65x41,126,0,8}
+window	1	1	1	:*	b93f,191x43,0,0,2
+window	2	1	1	:*	b140,191x41,0,0,3
+window	3	1	1	:*	b143,191x41,0,0,6
+window	4	1	1	:*	b944,191x43,0,0,7
+state	0	4

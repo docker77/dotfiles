@@ -1,0 +1,4 @@
+pane	Python programming	1	:nvim	1	:*	1	:/home/rust/.config/nvim	1	nvim	:nvim
+pane	Python programming	1	:nvim	1	:*	2	:/mnt/d/Downloads/nerd-fonts	0	zsh	:
+window	Python programming	1	1	:*	35a8,107x91,0,0[107x62,0,0,28,107x28,0,63,36]
+state	Python programming	

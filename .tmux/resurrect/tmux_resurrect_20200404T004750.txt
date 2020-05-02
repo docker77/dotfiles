@@ -1,0 +1,6 @@
+pane	Scrapy	1	:telnet	1	:*	1	:/home/rust/projects/russiangost/rgost	0	python	:/home/rust/projects/russiangost/rgost_env/bin/python /home/rust/projects/russiangost/rgost_env/bin/scrapy crawl russiangost -s JOBDIR=jobs
+pane	Scrapy	1	:telnet	1	:*	2	:/home/rust/projects/russiangost/rgost	1	telnet	:telnet localhost 6023
+pane	Scrapy	2	:nvim	0	:-	1	:/home/rust/projects/russiangost/rgost	1	nvim	:nvim
+window	Scrapy	1	1	:*	4e85,107x79,0,0[107x39,0,0,6,107x39,0,40,7]
+window	Scrapy	2	0	:-	d800,107x79,0,0,3
+state	Scrapy	

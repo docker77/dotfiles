@@ -1,0 +1,4 @@
+pane	6	1	:zsh	1	:*	1	:/home/rust/.config/nvim	0	nvim	:nvim
+pane	6	1	:zsh	1	:*	2	:/home/rust/.config/nvim	1	zsh	:
+window	6	1	1	:*	0de8,107x91,0,0[107x60,0,0,28,107x30,0,61,36]
+state	6	

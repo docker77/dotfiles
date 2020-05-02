@@ -1,0 +1,4 @@
+pane	0	1	:zsh	1	:*	1	:/home/rust/projects/myapp/src	0	nvim	:nvim
+pane	0	1	:zsh	1	:*	2	:/home/rust	1	zsh	:
+window	0	1	1	:*	cef4,191x45,0,0{95x45,0,0,0,95x45,96,0,1}
+state	0	

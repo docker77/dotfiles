@@ -1,0 +1,7 @@
+pane	0	1	:zsh	1	:*	1	:/home/rust/projects/graphql	1	zsh	:
+pane	0	1	:zsh	1	:*	2	:/home/rust/projects/myapp	0	zsh	:
+pane	1	1	:zsh	1	:*	1	:/home/rust/projects/wacdaq	1	zsh	:
+pane	1	1	:zsh	1	:*	2	:/home/rust/projects	0	zsh	:
+window	0	1	1	:*	2a58,191x45,0,0{130x45,0,0,0,60x45,131,0,1}
+window	1	1	1	:*	14e3,191x43,0,0{120x43,0,0,2,70x43,121,0,3}
+state	1	

@@ -1,0 +1,4 @@
+pane	0	1	:nvim	1	:*	1	:/home/rust/projects/reactexp/rapp	1	nvim	:lf
+pane	0	1	:nvim	1	:*	2	:/home/rust/projects/reactexp/rapp	0	npm	:npm
+window	0	1	1	:*	57a0,191x45,0,0{135x45,0,0,0,55x45,136,0,1}
+state	0	

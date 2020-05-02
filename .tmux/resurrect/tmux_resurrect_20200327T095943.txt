@@ -1,0 +1,6 @@
+pane	0	1	:nvim	1	:*	1	:/home/rust/projects/tf	1	nvim	:nvim
+pane	0	1	:nvim	1	:*	2	:/home/rust	0	zsh	:
+pane	1	1	:[tmux]	1	:*	1	:/home/rust	1	zsh	:
+window	0	1	1	:*	eef0,107x82,0,0[107x59,0,0,0,107x22,0,60,3]
+window	1	1	1	:*	be01,107x82,0,0,4
+state	1	0
