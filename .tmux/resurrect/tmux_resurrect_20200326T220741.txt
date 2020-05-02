@@ -1,6 +1,0 @@
-pane	Experiments	1	:Main	1	:*	1	:/home/rust/projects/tf	1	nvim	:nvim test.py
-pane	Experiments	1	:Main	1	:*	2	:/home/rust/projects/tf	0	zsh	:
-pane	Experiments	2	:zsh	0	:-	1	:/home/rust	1	zsh	:
-window	Experiments	1	1	:*	d8f6,107x79,0,0[107x54,0,0,0,107x24,0,55,1]
-window	Experiments	2	0	:-	be05,107x82,0,0,8
-state	Experiments	

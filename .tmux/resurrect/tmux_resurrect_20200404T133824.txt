@@ -1,6 +1,0 @@
-pane	Scrapy	1	:nvim	1	:*	1	:/home/rust	1	nvim	:nvim
-pane	Scrapy	1	:nvim	1	:*	2	:/home/rust/projects/russiangost/rgost	0	zsh	:
-pane	Scrapy	2	:Jupyter	0	:-	1	:/home/rust/projects/russiangost/rgost	1	python3	:/usr/bin/python3 /usr/local/bin/jupyter-notebook
-window	Scrapy	1	1	:*	fb0a,107x79,0,0[107x59,0,0,6,107x19,0,60,26]
-window	Scrapy	2	0	:-	d804,107x79,0,0,7
-state	Scrapy	

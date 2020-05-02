@@ -1,4 +1,0 @@
-pane	0	1	:zsh	1	:*	1	:/home/rust/projects/graphql	1	zsh	:
-pane	0	1	:zsh	1	:*	2	:/home/rust/projects/myapp	0	zsh	:
-window	0	1	1	:*	43db,191x48,0,0{130x48,0,0,0,60x48,131,0,1}
-state	0	

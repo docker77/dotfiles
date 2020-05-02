@@ -1,4 +1,0 @@
-pane	0	1	:nvim	1	:*	1	:/home/rust/projects/experiments	1	nvim	:nvim flaskexp.py
-pane	0	1	:nvim	1	:*	2	:/home/rust/projects/experiments	0	zsh	:
-window	0	1	1	:*	9e76,107x79,0,0[107x62,0,0,0,107x16,0,63,1]
-state	0	

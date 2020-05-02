@@ -1,4 +1,0 @@
-pane	0	1	:nvim	1	:*	1	:/home/rust/.config/nvim	1	nvim	:nvim
-pane	0	1	:nvim	1	:*	2	:/home/rust/projects/tf	0	zsh	:
-window	0	1	1	:*	43f5,107x87,0,0[107x63,0,0,0,107x23,0,64,1]
-state	0	

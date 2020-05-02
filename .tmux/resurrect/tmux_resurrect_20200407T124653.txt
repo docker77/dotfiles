@@ -1,6 +1,0 @@
-pane	0	1	:nvim	0	:-	1	:/home/rust/projects/russiangost/runorm/runorm/spiders	1	nvim	:nvim
-pane	0	1	:nvim	0	:-	2	:/home/rust/projects/russiangost/runorm	0	python	:/home/rust/projects/russiangost/rgost_env/bin/python /home/rust/projects/russiangost/rgost_env/bin/scrapy crawl runormcom -o rothers.json -s JOBDIR=jobs
-pane	0	2	:zsh	1	:*	1	:/home/rust/projects/russiangost/runorm	1	zsh	:
-window	0	1	0	:-	fff6,107x79,0,0[107x55,0,0,0,107x23,0,56,1]
-window	0	2	1	:*	d801,107x79,0,0,4
-state	0	

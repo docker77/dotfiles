@@ -1,7 +1,0 @@
-pane	1	1	:nvim	1	:*	1	:/home/rust/projects/russiangost/rgost/rgost	1	nvim	:nvim .
-pane	1	1	:nvim	1	:*	2	:/home/rust/projects/russiangost/rgost/rgost	0	zsh	:
-pane	Flask	1	:nvim	1	:*	1	:/home/rust/projects/experiments	1	nvim	:nvim
-pane	Flask	1	:nvim	1	:*	2	:/home/rust/projects/experiments	0	zsh	:
-window	1	1	1	:*	984a,98x76,0,0[98x50,0,0,3,98x25,0,51,6]
-window	Flask	1	1	:*	1e79,107x79,0,0[107x62,0,0,1,107x16,0,63,2]
-state	1	Flask

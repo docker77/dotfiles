@@ -1,7 +1,0 @@
-pane	2	1	:zsh	1	:*	1	:/home/rust	1	zsh	:
-pane	3	1	:nvim	1	:*Z	1	:/home/rust/projects/graphql/graphql-shop-example/gqlshop	1	nvim	:nvim
-pane	3	1	:nvim	1	:*Z	2	:/home/rust/projects/graphql/graphql-shop-example	0	zsh	:
-pane	3	1	:nvim	1	:*Z	3	:/home/rust/projects/graphql/graphql-shop-example	0	python	:python ./manage.py runserver
-window	2	1	1	:*	d7ff,107x79,0,0,2
-window	3	1	1	:*Z	369e,191x43,0,0[191x15,0,0,3,191x14,0,16,5,191x12,0,31,4]
-state	3	

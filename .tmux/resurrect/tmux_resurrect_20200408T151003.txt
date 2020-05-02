@@ -1,4 +1,0 @@
-pane	0	1	:python	1	:*M	1	:/home/rust/projects/django/myrestapp	0	nvim	:nvim
-pane	0	1	:python	1	:*M	2	:/home/rust/projects/django/myrestapp	1	python	:python ./manage.py runserver
-window	0	1	1	:*M	61f6,107x79,0,0[107x49,0,0,0,107x29,0,50,1]
-state	0	

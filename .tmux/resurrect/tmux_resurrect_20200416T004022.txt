@@ -1,7 +1,0 @@
-pane	0	1	:lf	1	:*Z	1	:/home/rust/projects/myapp/src	0	lf	:lf
-pane	0	1	:lf	1	:*Z	2	:/home/rust/projects/myapp/src	0	npm	:npm
-pane	0	1	:lf	1	:*Z	3	:/home/rust/projects/graphql	1	lf	:lf
-pane	1	1	:zsh	1	:*	1	:/home/rust	1	zsh	:
-window	0	1	1	:*Z	7103,191x52,0,0{131x52,0,0,0,59x52,132,0[59x25,132,0,1,59x26,132,26,3]}
-window	1	1	1	:*	b941,191x43,0,0,4
-state	0	1

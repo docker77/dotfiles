@@ -1,6 +1,0 @@
-/home/rust/projects/tut	40
-/home/rust/projects	40
-/home/rust/projects/tut	40
-/home/rust	40
-/home/rust/projects/tut	40
-/home/rust	40

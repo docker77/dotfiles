@@ -1,4 +1,0 @@
-pane	Experiments	1	:nvim	1	:*Z	1	:/mnt/d/videos/[Сергей\ Черненко] Python для SEO специалиста (2018-2019)/Advanced/Исходники/Урок 3	0	python	:/usr/bin/python -O /usr/bin/ranger
-pane	Experiments	1	:nvim	1	:*Z	2	:/home/rust/projects/experiments	1	nnn	:nnn
-window	Experiments	1	1	:*Z	d078,107x79,0,0[107x60,0,0,1,107x18,0,61,2]
-state	Experiments	

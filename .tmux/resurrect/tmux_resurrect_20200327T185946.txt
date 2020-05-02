@@ -1,4 +1,0 @@
-pane	Experiments	1	:nvim	1	:*Z	1	:/home/rust/projects/experiments	1	nvim	:nvim
-pane	Experiments	1	:nvim	1	:*Z	2	:/home/rust/projects/experiments	0	zsh	:
-window	Experiments	1	1	:*Z	f8c5,107x82,0,0[107x61,0,0,7,107x20,0,62,11]
-state	Experiments	

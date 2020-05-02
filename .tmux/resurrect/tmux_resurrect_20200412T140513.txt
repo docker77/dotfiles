@@ -1,4 +1,0 @@
-pane	0	1	:python	1	:*	1	:/home/rust/projects/graphql/graphql-shop-example	0	nvim	:nvim rq_test.py
-pane	0	1	:python	1	:*	2	:/home/rust/projects/graphql/graphql-shop-example	1	python	:python ./manage.py runserver
-window	0	1	1	:*	3dae,191x43,0,0{115x43,0,0,0,75x43,116,0,1}
-state	0	

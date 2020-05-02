@@ -1,4 +1,0 @@
-pane	0	1	:[tmux]	1	:*	1	:/home/rust/projects/experiments	0	nvim	:nvim wsgiexp.py
-pane	0	1	:[tmux]	1	:*	2	:/home/rust/projects/experiments	1	zsh	:
-window	0	1	1	:*	e177,107x79,0,0[107x48,0,0,0,107x30,0,49,2]
-state	0	
