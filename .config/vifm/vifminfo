@@ -6,29 +6,33 @@
 	..
 1547183189
 'b
-	/home/docker/bin/
+	/home/rustam/bin/
 	..
-1551509717
+1588620791
 'g
 	/home/docker/Projects/gp227/src
 	app
 1551541380
 'h
-	/home/docker/
+	/home/rustam/
 	..
-1552894315
+1588620791
 'j
 	/home/docker/Sklad/Videos/HS@H Mastermind
 	Free Association Tutorial (Premium Full-Length Version).mp4
 1571376070
+'m
+	/home/rustam/Sklad/Manuals
+	..
+1592943353
 'o
 	/home
 	docker
 1551588323
 'p
-	/home/docker/Pictures
-	2019-02-19-214846_1920x2160_scrot.png
-1551508495
+	/home/rustam/Projects
+	exper
+1588690977
 'v
 	/home/docker/Videos
 	loro_2018_1080p.mkv
@@ -55,619 +59,612 @@ l12
 r12
 
 # Left window history (oldest to newest):
-d/home/docker/.local/share/vifm/fuse/001_elementorsheets13.rar/elementorsheets13
-	elementorsheets
-1
-d/home/docker/.local/share/vifm/fuse/001_elementorsheets13.rar/elementorsheets13/elementorsheets
+d/run/media/rustam/Sklad/Manuals
+	ReactTraining - Learn React Hooks By Building A Real Application
+28
+d/run/media/rustam/Sklad/Manuals/ReactTraining - Learn React Hooks By Building A Real Application
 	..
 0
-d/home/docker/.local/share/vifm/fuse/001_elementorsheets13.rar/elementorsheets13
-	elementorsheets
-1
-d/home/docker/.local/share/vifm/fuse/001_elementorsheets13.rar
-	elementorsheets13
-1
-d/home/docker/.local/share/vifm/fuse/001_elementorsheets13.rar/elementorsheets13
-	elementorsheets
-1
-d/home/docker/.local/share/vifm/fuse/001_elementorsheets13.rar/elementorsheets13/elementorsheets
+d/run/media/rustam/Sklad/Manuals
+	ReactTraining - Learn React Hooks By Building A Real Application
+28
+d/run/media/rustam/Sklad/Manuals/ReactTraining - Learn React Hooks By Building A Real Application
 	..
 0
-d/home/docker/.local/share/vifm/fuse/001_elementorsheets13.rar/elementorsheets13
-	elementorsheets
-1
-d/home/docker/.local/share/vifm/fuse
-	002_bkp.2019-01-19.278200118.tar.gz
-2
-d/home/docker/.local/share/vifm
-	fuse
-1
-d/home/docker/.local/share
-	inxi
-16
-d/home/docker/.local
-	share
-4
-d/home/docker
-	Sklad
-34
-d/home/docker/Sklad
-	Wordpress
-24
-d/home/docker/Sklad/Wordpress
-	Plugins
-1
-d/home/docker/Sklad/Wordpress/Plugins
-	wpdatatables281.rar
-7
-d/home/docker/.local/share/vifm/fuse/001_wpdatatables281.rar
-	wpdatatables281
-1
-d/home/docker/.local/share/vifm/fuse/001_wpdatatables281.rar/wpdatatables281
-	
-1
-d/home/docker/.local/share/vifm/fuse
+d/run/media/rustam/Sklad/Manuals
+	ReactTraining - Learn React Hooks By Building A Real Application
+28
+d/run/media/rustam/Sklad/Manuals/ReactTraining - Learn React Hooks By Building A Real Application
 	..
 0
-d/home/docker/.local/share/vifm
-	..
-0
-d/home/docker/.local/share
-	gsettings-data-convert
+d/run/media/rustam/Sklad/Manuals
+	ReactTraining - Learn React Hooks By Building A Real Application
+28
+d/run/media/rustam/Sklad/Manuals/ReactTraining - Learn React Hooks By Building A Real Application
+	78. goodbyeworld.mp4
 40
-d/home/docker/.local
-	share
-4
-d/home/docker
-	Sklad
-35
-d/home/docker/Sklad
-	Videos
-23
-d/home/docker/Sklad/Videos
-	peregovori
-2
-d/home/docker/Sklad
-	Wordpress
-24
-d/home/docker/Sklad/Wordpress
-	Plugins
+d/run/media/rustam/Sklad/Manuals
+	Firebase + React - Real-time, Serverless Web Apps
+11
+d/run/media/rustam/Sklad/Manuals/Firebase + React - Real-time, Serverless Web Apps
+	1. Firebase + React
 1
-d/home/docker/Sklad/Wordpress/Plugins
-	elementorsheets13.rar
-2
-d/home/docker/.local/share/vifm/fuse/001_elementorsheets13.rar
-	elementorsheets13
+d/run/media/rustam/Sklad/Manuals/Firebase + React - Real-time, Serverless Web Apps/1. Firebase + React
+	1. Introduction.mp4
 1
-d/home/docker/.local/share/vifm/fuse/001_elementorsheets13.rar/elementorsheets13
-	elementorsheets
+d/run/media/rustam/Sklad/Manuals/Firebase + React - Real-time, Serverless Web Apps
+	1. Firebase + React
 1
-d/home/docker/.local/share/vifm/fuse/001_elementorsheets13.rar
-	elementorsheets13
-1
-d/home/docker/Sklad/Wordpress/Plugins
-	wpdatatables281.rar
-7
-d/home/docker/.local/share/vifm/fuse/001_wpdatatables281.rar
-	wpdatatables281
-1
-d/home/docker/.local/share/vifm/fuse/001_wpdatatables281.rar/wpdatatables281
-	
-1
-d/home/docker/.local/share/vifm/fuse
-	wpdatatables
-1
-d/home/docker/.local/share
-	data
-6
-d/home/docker/.local
-	share
-2
-d/home/docker
-	.local
-6
-d/home
-	docker
-1
-d/home/docker
-	Sklad
-18
-d/home/docker/Sklad
-	Client-Side GraphQL in React
-8
-d/home/docker/Sklad/Client-Side GraphQL in React
-	3. Apollo React
-3
-d/home/docker/Sklad
-	[04-2020] react-redux
-2
-d/home/docker/Sklad/[04-2020] react-redux
-	08 Making API Requests with React
-4
-d/home/docker/Sklad
-	Build Cross-Platform Desktop Apps with Electron
-6
-d/home/docker/Sklad/Build Cross-Platform Desktop Apps with Electron
-	..
-0
-d/home/docker/Sklad
-	AWS for Front-End Engineers (ft. S3, Cloudfront & Route 53)
-5
-d/home/docker
-	Sklad
-18
-d/home/docker/Sklad
-	Manuals
-1
-d/home/docker/Sklad/Manuals
-	..
-0
-d/home/docker/Sklad
-	Manuals
-1
-d/home/docker/Sklad/Manuals
-	..
-0
-d/home/docker/Sklad
-	..
-0
-d/home/docker
-	Sklad
-18
-d/home/docker/Sklad
-	Manuals
-1
-d/home/docker/Sklad/Manuals
-	..
-0
-d/run/media
-	docker
-1
-d/run/media/docker
-	SKLAD
-2
-d/run/media/docker/SKLAD
-	Manuals
-4
-d/run/media/docker/SKLAD/Manuals
-	AWS for Front-End Engineers (ft. S3, Cloudfront & Route 53)
-5
-d/run/media/docker/SKLAD/Manuals/AWS for Front-End Engineers (ft. S3, Cloudfront & Route 53)
-	8. Setting Up a Build Pipeline
-8
-d/run/media/docker/SKLAD/Manuals/AWS for Front-End Engineers (ft. S3, Cloudfront & Route 53)/8. Setting Up a Build Pipeline
-	8. Setting Up a Build Pipeline
-1
-d/run/media/docker/SKLAD/Manuals/AWS for Front-End Engineers (ft. S3, Cloudfront & Route 53)/8. Setting Up a Build Pipeline/8. Setting Up a Build Pipeline
-	..
-0
-d/run/media/docker/SKLAD/Manuals/AWS for Front-End Engineers (ft. S3, Cloudfront & Route 53)/8. Setting Up a Build Pipeline
-	1 Introducing CICD with Travis CI.mp4
-2
-d/run/media/docker/SKLAD/Manuals/AWS for Front-End Engineers (ft. S3, Cloudfront & Route 53)
-	7. CloudFront
-7
-d/run/media/docker/SKLAD/Manuals
-	React and Redux
+d/run/media/rustam/Sklad/Manuals
+	Intermediate Gatsby with Gatsby Themes
 14
-d/run/media/docker/SKLAD/Manuals/React and Redux
-	06 Understanding Lifecycle Methods
-2
-d/run/media/docker/SKLAD/Manuals/React and Redux/06 Understanding Lifecycle Methods
-	062 Refactoring Data Loading to Lifecycle Methods.mp4
-6
 d/run/media
 	..
 0
 d/run
 	media
-12
+11
+d/run/media
+	rustam
+1
+d/run/media/rustam
+	79AC835C49BEF452
+1
+d/run/media/rustam/79AC835C49BEF452
+	Videos
+5
+d/run/media/rustam/79AC835C49BEF452/Videos
+	Fantasy.Island.2020.AMZN.WEB-DLRip.1.46Gb.MegaPeer
+3
 d/run/media
 	..
 0
 d/run
 	media
-12
-d/run/media
+11
+d/run/media/rustam/Sklad/Manuals/ReactTraining - Learn React Hooks By Building A Real Application
+	78. goodbyeworld.mp4
+40
+d/run/media/rustam/Sklad/Manuals
+	ReactTraining - Learn React Hooks By Building A Real Application
+28
+d/run/media/rustam/Sklad
+	Manuals
+11
+d/run/media/rustam/Sklad/Manuals
+	ReactTraining - Learn React Hooks By Building A Real Application
+28
+d/run/media/rustam/Sklad
+	Wordpress
+17
+d/run/media/rustam/Sklad/Wordpress
 	..
 0
-d/run
-	media
-12
-d/run/media
+d/run/media/rustam/Sklad
+	XCSoar
+18
+d/run/media/rustam/Sklad/XCSoar
 	..
 0
-d/run
-	media
-12
-d/run/media
-	..
-0
-d/run
-	media
-12
-d/run/media
-	..
-0
-d/run
-	media
-12
-d/run/media
-	..
-0
-d/run
-	media
-12
-d/run/media
-	..
-0
-d/run
-	media
-12
-d/run/media
-	..
-0
-d/run
-	media
-12
-d/run/media
-	..
-0
-d/run
-	sudo
-21
-d/
-	home
+d/run/media/rustam/Sklad
+	Condor2
 4
-d/home
-	docker
-1
-d/home/docker
-	Sklad
-16
-d/home/docker/Sklad
+d/run/media/rustam/Sklad/Condor2
 	..
 0
-d/home/docker
-	.bash_history
-20
-d/home
-	docker
+d/run/media/rustam/Sklad
+	Condor2
+4
+d/run/media/rustam/Sklad/Condor2
+	Landscapes
+3
+d/run/media/rustam/Sklad/Condor2/Landscapes
+	AA2
 1
+d/run/media/rustam/Sklad/Condor2/Landscapes/AA2
+	Airports
+1
+d/run/media/rustam/Sklad/Condor2/Landscapes
+	Tian-Shan2
+2
+d/run/media/rustam/Sklad/Condor2/Landscapes/Tian-Shan2
+	..
+0
+d/run/media/rustam/Sklad/Condor2/Landscapes
+	..
+0
+d/run/media/rustam/Sklad/Condor2
+	Tracks
+4
+d/run/media/rustam/Sklad/Condor2/Tracks
+	..
+0
+d/run/media/rustam/Sklad/Condor2
+	CondorUpdater_Setup.exe
+7
+d/run/media/rustam/Sklad
+	Gosts
+7
+d/run/media/rustam
+	79AC835C49BEF452
+1
+d/run/media/rustam/79AC835C49BEF452
+	Videos
+5
+d/run/media/rustam/79AC835C49BEF452/Videos
+	Bad.Boys.For.Life.2020.BDRip.2.18Gb.DUB.MegaPeer
+1
+d/run/media/rustam/79AC835C49BEF452/Videos/Bad.Boys.For.Life.2020.BDRip.2.18Gb.DUB.MegaPeer
+	..
+0
+d/run/media/rustam/79AC835C49BEF452/Videos
+	15. Стражи Галактики. Часть 2 (2017) BDRip 720p [HEVC] 10 bit.mkv
+5
+d/run/media
+	..
+0
+d/run
+	tlp
+23
+d/home/rustam
+	Sklad
+32
+d/home/rustam/Sklad
+	..
+0
+d/home/rustam
+	Sklad2
+33
+d/home/rustam/Sklad2
+	..
+0
+d/home/rustam
+	Sklad2
+33
+d/home/rustam/Sklad2
+	..
+0
+d/home/rustam
+	Sklad
+32
+d/home/rustam/Sklad
+	..
+0
+d/home/rustam
+	Sklad
+32
+d/home
+	rustam
+2
 d/
 	run
 12
 d/run
 	media
-12
+11
 d/run/media
+	..
+0
+d/run
+	mount
+12
+d/run/mount
+	..
+0
+d/run
+	mount
+12
+d/
+	run
+12
+d/run
+	media
+11
+d/run/media
+	rustam
+1
+d/run/media/rustam
 	Sklad
+1
+d/run/media/rustam/Sklad
+	Gosts
+7
+d/run/media/rustam
+	Sklad2
 2
-d/run/media/Sklad
+d/run/media/rustam/Sklad2
+	..
+0
+d/run/media/rustam
+	Sklad
+1
+d/run/media/rustam/Sklad
+	Gosts
+7
+d/run/media/rustam
+	Sklad2
+2
+d/run/media/rustam/Sklad2
+	..
+0
+d/run/media/rustam
+	Sklad2
+2
+d/run/media/rustam/Sklad2
+	Condor
+2
+d/run/media/rustam
+	Sklad
+1
+d/run/media/rustam/Sklad
 	Manuals
-2
-d/run/media/Sklad/Manuals
-	React and Redux
-14
-d/run/media/Sklad/Manuals/React and Redux
-	06 Understanding Lifecycle Methods
-2
-d/run/media/Sklad/Manuals/React and Redux/06 Understanding Lifecycle Methods
-	062 Refactoring Data Loading to Lifecycle Methods.mp4
+11
+d/run/media/rustam/Sklad/Manuals
+	ReactTraining - Learn React Hooks By Building A Real Application
+28
+d/run/media/rustam/Sklad/Manuals/ReactTraining - Learn React Hooks By Building A Real Application
+	78. goodbyeworld.mp4
+40
+d/run/media
+	..
+0
+d/run
+	media
+11
+d/
+	sbin
+13
+d/home/rustam
+	Sklad
+32
+d/home/rustam/Sklad
+	Wallpapers
+16
+d/home/rustam/Sklad/Wallpapers
+	1187316-wallpaper-for-vertical-monitor-1920x1080-mobile.jpg
 6
+d/home/rustam/Sklad/Manuals
+	[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
+5
+d/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
+	02 Take It From The Top - Headers and Navigation
+2
+d/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/02 Take It From The Top - Headers and Navigation
+	013 AppBar Transitions.mp4
+9
+d/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
+	02 Take It From The Top - Headers and Navigation
+2
+d/home/rustam/Sklad/Manuals
+	[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
+4
+d/home/rustam/Sklad
+	Manuals
+11
+d/home/rustam
+	Projects
+30
+d/home/rustam/Projects
+	metronic
+8
+d/home/rustam/Projects/metronic
+	demo1
+1
+d/home/rustam/Projects/metronic/demo1
+	webpack.config.js
+10
+d/home/rustam/Projects/metronic
+	demo1
+1
+d/home/rustam/Projects
+	Project 1 Files
+5
 d
 
 # Right window history (oldest to newest):
-D/media/Sklad/Projects/paraplanuz/wp-content/themes
-	salient
-1
-D/media/Sklad/Projects/paraplanuz/wp-content/themes/salient
-	plugins
-7
-D/media/Sklad/Projects/paraplanuz/wp-content/themes/salient/plugins
-	js_composer_salient.zip
-1
-D/home/docker/.local/share/vifm/fuse/001_js_composer_salient.zip
+D/home/rustam/Sklad/Wordpress/themes
 	..
 0
-D/media/Sklad/Projects/paraplanuz/wp-content/themes/salient/plugins
-	salient-core.zip
-2
-D/home/docker/.local/share/vifm/fuse/001_salient-core.zip
-	..
-0
-D/media/Sklad/Projects/paraplanuz/wp-content/themes/salient/plugins
-	salient-demo-importer.zip
-3
-D/home/docker/.local/share/vifm/fuse/001_salient-demo-importer.zip
-	..
-0
-D/media/Sklad/Projects/paraplanuz/wp-content/themes/salient/plugins
-	salient-home-slider.zip
-4
-D/home/docker/.local/share/vifm/fuse/001_salient-home-slider.zip
-	..
-0
-D/media/Sklad/Projects/paraplanuz/wp-content/themes/salient/plugins
-	salient-nectar-slider.zip
-5
-D/home/docker/.local/share/vifm/fuse/001_salient-nectar-slider.zip
-	..
-0
-D/media/Sklad/Projects/paraplanuz/wp-content/themes/salient/plugins
-	salient-portfolio.zip
-6
-D/home/docker/.local/share/vifm/fuse/001_salient-portfolio.zip
-	..
-0
-D/media/Sklad/Projects/paraplanuz/wp-content/themes/salient/plugins
-	salient-shortcodes.zip
-7
-D/home/docker/.local/share/vifm/fuse/001_salient-shortcodes.zip
-	..
-0
-D/media/Sklad/Projects/paraplanuz/wp-content/themes/salient/plugins
-	salient-social.zip
-8
-D/home/docker/.local/share/vifm/fuse/001_salient-social.zip
-	..
-0
-D/media/Sklad/Projects/paraplanuz/wp-content/themes/salient/plugins
-	salient-widgets.zip
-9
-D/home/docker/.local/share/vifm/fuse/001_salient-widgets.zip
-	salient-widgets
-1
-D/media/Sklad/Projects/paraplanuz/wp-content/themes/salient/plugins
-	salient-widgets.zip
-9
-D/media/Sklad/Projects/paraplanuz/wp-content/themes/salient
-	plugins
-7
-D/media/Sklad/Projects/paraplanuz/wp-content/themes
-	salient
-1
-D/media/Sklad/Projects/paraplanuz/wp-content
-	plugins
-2
-D/media/Sklad/Projects/paraplanuz/wp-content/plugins
-	woocommerce-clickuz-gateway
-12
-D/media/Sklad/Projects/paraplanuz/wp-content/plugins/woocommerce-clickuz-gateway
-	..
-0
-D/media/Sklad/Projects/paraplanuz/wp-content/plugins
-	woocommerce-payme-gateway
-13
-D/media/Sklad/Projects/paraplanuz/wp-content/plugins/woocommerce-payme-gateway
-	lang
-1
-D/media/Sklad/Projects/paraplanuz/wp-content/plugins
-	woocommerce-payme-gateway
-13
-D/media/Sklad/Projects/paraplanuz/wp-content
-	plugins
-2
-D/media/Sklad/Projects/paraplanuz
-	wp-content
-2
-D/media/Sklad/Projects
-	alga
-1
-D/media/Sklad/Projects/alga
-	wp-content
-3
-D/media/Sklad/Projects/alga/wp-content
-	plugins
-2
-D/media/Sklad/Projects/alga/wp-content/plugins
-	hello.php
-2
-D/media/Sklad/Projects/alga/wp-content
-	plugins
-2
-D/media/Sklad/Projects/alga
-	uploads.ini
-1
-D/media/Sklad/Projects/alga/uploads.ini
-	..
-0
-D/media/Sklad/Projects/alga
-	wp-content
-3
-D/media/Sklad/Projects/alga/wp-content
-	plugins
-2
-D/media/Sklad/Projects/alga/wp-content/plugins
-	..
-0
-D/media/Sklad/Projects/alga/wp-content
-	uploads
-5
-D/media/Sklad/Projects/alga/wp-content/uploads
-	2019
-1
-D/media/Sklad/Projects/alga/wp-content/uploads/2019
-	09
-1
-D/media/Sklad/Projects/alga/wp-content/uploads/2019/09
-	..
-0
-D/media/Sklad/Projects/alga/wp-content/uploads/2019
-	09
-1
-D/media/Sklad/Projects/alga/wp-content/uploads
-	2019
-1
-D/media/Sklad/Projects/alga/wp-content
-	uploads
-5
-D/media/Sklad/Projects/alga
-	..
-0
-D/media/Sklad/Projects
-	alga
-1
-D/media/Sklad/Projects/alga
-	elementorism-landing-pages
-1
-D/media/Sklad/Projects/alga/elementorism-landing-pages
-	Landing Pages
-1
-D/media/Sklad/Projects/alga/elementorism-landing-pages/Landing Pages
-	collins.zip
-9
-D/home/docker/.local/share/vifm/fuse/002_collins.zip
-	..
-0
-D/media/Sklad/Projects/alga/elementorism-landing-pages/Landing Pages
-	collins.zip
-9
-D/media/Sklad/Projects/alga/elementorism-landing-pages
-	SALES PAGE.html
-2
-D/media/Sklad/Projects/alga
-	uploads.ini
-2
-D/media/Sklad/Projects
-	alga
-1
-D/media/Sklad/Projects/alga
-	wp-content
-4
-D/media/Sklad/Projects/alga/wp-content
+D/home/rustam/Sklad/Wordpress
 	themes
 3
-D/media/Sklad/Projects/alga/wp-content/themes
+D/home/rustam/Sklad
+	Projects
+14
+D/home/rustam/Sklad/Projects
+	Bootstrap
+1
+D/home/rustam/Sklad/Projects/Bootstrap
+	metronic-responsive-admin-dashboard-template618.zip
+8
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip
+	metronic_v6.1.8
+1
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8
+	design
+1
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/design
 	..
 0
-D/media/Sklad/Projects/alga/wp-content
-	plugins
-2
-D/media/Sklad/Projects/alga/wp-content/plugins
-	akismet
-1
-D/media/Sklad/Projects/alga/wp-content
-	plugins
-2
-D/media/Sklad/Projects/alga/wp-content/plugins
-	elementor
-4
-D/media/Sklad/Projects/alga/wp-content
-	plugins
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8
+	theme
 3
-D/media/Sklad/Projects/alga/wp-content/plugins
-	wpdatatables
-12
-D/media/Sklad/Projects/alga/wp-content
-	plugins
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/theme
+	..
+0
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8
+	doc
+2
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/doc
+	..
+0
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8
+	design
+1
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/design
+	..
+0
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8
+	design
+1
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/design
+	psd
+1
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8
+	design
+1
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip
+	metronic_v6.1.8
+1
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8
+	theme
 3
-D/media/Sklad/Projects/alga
-	wp-content
-5
-D/media/Sklad/Projects
-	pgaasian
-12
-D/media/Sklad/Projects/pgaasian
-	wp-content
-2
-D/media/Sklad/Projects/pgaasian/wp-content
-	plugins
-4
-D/media/Sklad/Projects/pgaasian/wp-content/plugins
-	wpdatatables
-13
-D/
-	home
-4
-D/home
-	docker
-1
-D/home/docker
-	.fzf
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/theme
+	react
 3
-D/home/docker/.fzf
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/theme/react
+	demo1
+1
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/theme/react/demo1
 	..
 0
-D/home/docker
-	.config
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/theme/react
+	..
+0
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/theme
+	react
+3
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/theme/react
+	demo2
 2
-D/home/docker/.config
-	pulse
-18
-D/home/docker
-	Downloads
-13
-D/home/docker/Downloads
-	..
-0
-D/home/docker
-	Sklad
-16
-D/home/docker/Sklad
-	Manuals
-10
-D/home/docker/Sklad/Manuals
-	[04-2020] node-with-react-fullstack-web-development
-1
-D/home/docker/Sklad
-	Manuals
-1
-D/home/docker/Sklad/Manuals
-	Rapid Development on AWS - React, Node.js & GraphQL
-10
-D/home/docker/Sklad
-	Manuals
-1
-D/home/docker/Sklad/Manuals
-	React and Redux
-11
-D/home/docker/Sklad/Manuals/React and Redux
-	19 Handling Forms with Redux Form
-15
-D/home/docker/Sklad/Manuals
-	AWS for Front-End Engineers (ft. S3, Cloudfront & Route 53)
-1
-D/home/docker/Sklad/Manuals/AWS for Front-End Engineers (ft. S3, Cloudfront & Route 53)
-	8. Setting Up a Build Pipeline
-1
-D/home/docker/Sklad/Manuals/AWS for Front-End Engineers (ft. S3, Cloudfront & Route 53)/8. Setting Up a Build Pipeline
-	..
-0
-D/home/docker/Sklad/Manuals/AWS for Front-End Engineers (ft. S3, Cloudfront & Route 53)
-	..
-0
-D/home/docker/Sklad/Manuals
-	..
-0
-D/home/docker/Sklad
-	..
-0
-D/home/docker
-	Templates
-16
-D/home/docker/Templates
-	..
-0
-D/home/docker
-	.config
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/theme
+	default
 2
-D/home/docker/.config
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/theme/default
+	..
+0
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/theme
+	angular
+1
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/theme/angular
+	..
+0
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/theme
+	angular
+1
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8
+	design
+1
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/design
+	psd
+1
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/design/psd
+	Homepage Demos
+1
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/design/psd/Homepage Demos
+	..
+0
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/design/psd
+	Inner Pages
+2
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/design/psd/Inner Pages
+	..
+0
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/design/psd
+	Widgets
+3
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/design/psd/Widgets
+	..
+0
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/design/psd
+	Widgets
+3
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/design
+	metronic_figma.fig
+2
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8
+	doc
+2
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/doc
+	wizard.html
+40
+D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8
+	doc
+2
+D/home/rustam/.local/share/vifm/fuse
+	..
+0
+D/home/rustam/.local/share/vifm
+	fuse
+1
+D/home/rustam/.local/share
 	vifm
-25
-D/home/docker/.config/vifm
-	vifmrc
+36
+D/home/rustam/.local
+	share
+3
+D/home/rustam
+	Sklad
+29
+D/home/rustam/Sklad
+	Wordpress
+17
+D/home/rustam
+	Sklad2
+30
+D/home/rustam/Sklad2
+	Videos
+6
+D/home/rustam/Sklad2/Videos
+	15. Стражи Галактики. Часть 2 (2017) BDRip 720p [HEVC] 10 bit.mkv
+4
+D/home/rustam/Sklad2
+	Manuals
+3
+D/home/rustam/Sklad2/Manuals
+	[05-2020] the-python-mega-course
+1
+D/home/rustam/Sklad2
+	Music
+4
+D/home/rustam/Sklad2/Music
+	..
+0
+D/home/rustam/Sklad2
+	Videos
+6
+D/home/rustam/Sklad2/Videos
+	15. Стражи Галактики. Часть 2 (2017) BDRip 720p [HEVC] 10 bit.mkv
+4
+D/home/rustam/Sklad2
+	Condor
+2
+D/home/rustam/Sklad2/Condor
+	..
+0
+D/home/rustam/Sklad2
+	Manuals
+3
+D/home/rustam/Sklad2/Manuals
+	[05-2020] the-python-mega-course
+1
+D/home/rustam/Sklad2
+	Manuals
+3
+D/home/rustam
+	snap
+31
+D/home/rustam/snap
+	..
+0
+D/home/rustam
+	Sklad
+29
+D/home/rustam/Sklad
+	Manuals
+11
+D/home/rustam/Sklad/Manuals
+	[sliwbl.biz] [javascript] Интенсив по TypeScript
+6
+D/home/rustam/Sklad/Manuals/[sliwbl.biz] [javascript] Интенсив по TypeScript
+	..
+0
+D/home/rustam/Sklad/Manuals
+	[sliwbl.biz] [javascript] Интенсив по TypeScript
+6
+D/home/rustam/Sklad/Manuals/[sliwbl.biz] [javascript] Интенсив по TypeScript
+	..
+0
+D/home/rustam/Sklad/Manuals
+	[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
+4
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
+	01 Introduction
+1
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/01 Introduction
+	..
+0
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
+	02 Take It From The Top - Headers and Navigation
+2
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/02 Take It From The Top - Headers and Navigation
+	023 Buttons Overview.en_US.srt
+29
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
+	03 Adding Header Features - Menus and Responsive Design
+3
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/03 Adding Header Features - Menus and Responsive Design
+	028 Section 3 Intro.mp4
+2
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
+	03 Adding Header Features - Menus and Responsive Design
+3
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/03 Adding Header Features - Menus and Responsive Design
+	042 Using Lists - Setup.en_US.srt
+29
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
+	04 Bottoms Up! Footers and Basic Layouts
+4
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/04 Bottoms Up! Footers and Basic Layouts
+	048 Section 4 Intro.mp4
+2
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
+	06 Complex Layouts
+6
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/06 Complex Layouts
+	..
+0
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
+	05 Hitting The Ground Running - Animations and The Landing Page
+5
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/05 Hitting The Ground Running - Animations and The Landing Page
+	..
+0
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
+	07 Inputs, Validation, and Confirmation
 7
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/07 Inputs, Validation, and Confirmation
+	..
+0
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
+	10 Putting It All Together - Estimate Page
+10
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/10 Putting It All Together - Estimate Page
+	..
+0
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
+	16 BONUS VIDEOS
+16
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/16 BONUS VIDEOS
+	..
+0
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
+	15 Project Manager
+15
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/15 Project Manager
+	..
+0
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
+	13 Deployment
+13
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/13 Deployment
+	..
+0
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
+	12 Cross-Browser Support
+12
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/12 Cross-Browser Support
+	..
+0
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
+	01 Introduction
+1
+D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/01 Introduction
+	006 Project Files and Resources.html
+14
 D
 
 # Command line history (oldest to newest):
-:set lsview
-:set nolsview
-:set milleroptions
-:dset nolsview
-:! vim &
-:!doublecmd
-:!zathura &
 :ln -s /media/Sklad/Pictures Pictures
 :h
 :!yay remove gvim
@@ -760,9 +757,19 @@ D
 :qq
 :! mpv .
 :! mpv *.mp4
+:!vlc .
+:!touch mouse-follows-focus.py
+:!chmod +x mouse-follows-focus.py
+:!./mouse-follows-focus.py
+:cd ""
+:cd "l"
+:mkdir  "metronic"
 :q
 
 # Search history (oldest to newest):
+/django
+/input
+/mpv
 /reac
 /\.confi
 /vif
@@ -804,14 +811,12 @@ D
 /vifm
 /i3ex
 /ctag
-/vim
 /tmp
 /.cac
 /pacui
 /tags
 /.confi
 /nvim
-/scrip
 /pictu
 /zsh
 /i3
@@ -824,6 +829,13 @@ D
 /ka
 /woer
 /config
+/scrip
+/zero
+/vim
+/mark
+/fir19k
+/python
+/mater
 
 # Prompt history (oldest to newest):
 pAdvanced Product Feeds 1.0.100.zip
@@ -843,7 +855,7 @@ pinstall.html
 |^\.
 
 # Registers:
-""/home/docker/.local/share/vifm/Trash/000_Sklad
+""/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/design/metronic_figma.fig
 
 # Directory stack (oldest to newest):
 
@@ -958,6 +970,16 @@ t/home/docker/.local/share/vifm/Trash/000_Manuals
 	/home/docker/Sklad/Manuals
 t/home/docker/.local/share/vifm/Trash/000_Sklad
 	/home/docker/Sklad
+t/run/media/rustam/Sklad/.vifm-Trash-1000/000_null
+	/run/media/rustam/Sklad/Manuals/[04-2020] react-redux/07 Handling User Input with Forms and Events/null
+t/run/media/rustam/Sklad/.vifm-Trash-1000/000_07 Handling User Input with Forms and Events
+	/run/media/rustam/Sklad/Manuals/[04-2020] react-redux/07 Handling User Input with Forms and Events
+t/run/media/rustam/Sklad/.vifm-Trash-1000/000_08 Making API Requests with React
+	/run/media/rustam/Sklad/Manuals/[04-2020] react-redux/08 Making API Requests with React
+t/run/media/rustam/Sklad/.vifm-Trash-1000/000_09 Building Lists of Records
+	/run/media/rustam/Sklad/Manuals/[04-2020] react-redux/09 Building Lists of Records
+t/run/media/rustam/Sklad/.vifm-Trash-1000/000_.fuse_hidden0000006300000001
+	/run/media/rustam/Sklad/Manuals/[Дмитрий Лаврик] React. Интенсивный курс для программистов/Урок 8/.fuse_hidden0000006300000001
 
 # State:
 f

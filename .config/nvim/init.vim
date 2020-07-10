@@ -1,20 +1,15 @@
 " My NeoVim configuration file
-" Author: Rustam Ababakirov, 2019
+" Author: Rustam Ababakirov, 2019-2020
 " Note: Best use with folding (za to toggle folds)
 " vim: foldmarker={,} foldmethod=marker foldlevel=10
 
 
 " PLUGINS {
 
-    "Specify a directory for plugins
     " - For Neovim: ~/.local/share/nvim/plugged
-    " - Avoid using standard Vim directory names like 'plugin'
     call plug#begin('~/.local/share/nvim/plugged')
 
         Plug 'drewtempelmeyer/palenight.vim'
-        "Plug 'sainnhe/gruvbox-material'
-        "Plug 'joshdick/onedark.vim'
-        "Plug 'rakr/vim-one'
 
         " tmux
         Plug 'christoomey/vim-tmux-navigator'
@@ -23,12 +18,15 @@
 
         "Plug 'lilydjwg/colorizer'
         Plug 'vim-airline/vim-airline'
-        "Plug 'vim-airline/vim-airline-themes'
 
         Plug 'jiangmiao/auto-pairs'
 
+
+        Plug 'junegunn/limelight.vim'
+
         Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
         Plug 'junegunn/fzf.vim'
+        autocmd! FileType fzf tnoremap <buffer> <esc> <c-c>
 
         Plug 'mhinz/vim-startify'
         Plug 'scrooloose/nerdcommenter'
@@ -36,12 +34,9 @@
         Plug 'tpope/vim-repeat'
         Plug 'ryanoasis/vim-devicons'
         Plug 'jmcantrell/vim-virtualenv'
+        Plug 'airblade/vim-rooter'
 
         Plug 'junegunn/goyo.vim'
-
-        Plug 'scrooloose/nerdtree'
-        "Plug 'Xuyuanp/nerdtree-git-plugin'
-        Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
         " Git
         Plug 'tpope/vim-fugitive'
@@ -49,23 +44,16 @@
 
         " Syntaxis
         Plug 'tpope/vim-haml'
-        Plug 'chr4/nginx.vim'
         Plug 'pangloss/vim-javascript'
-        "Plug 'baskerville/vim-sxhkdrc'
         Plug 'tpope/vim-dotenv'
 
         Plug 'leafgarland/typescript-vim'
-        "Plug 'maxmellon/vim-jsx-pretty'
-
-        " python advanced highliting
-        Plug 'lepture/vim-jinja'
-
-        " Plug 'wilywampa/vim-ipython', {'branch' : 'update-monitor'}
+        Plug 'maxmellon/vim-jsx-pretty'
 
         Plug 'Guzzii/python-syntax'
 
         " Асинхронная проверка синтаксиса
-        Plug 'w0rp/ale'
+        "Plug 'w0rp/ale'
 
         " Use release branch (Recommend)
         Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -73,58 +61,41 @@
         " post install (yarn install | npm install) then load plugin only for editing supported files
         Plug 'prettier/vim-prettier', {
           \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
+        let g:prettier#config#tab_width =2 
 
+        Plug 'mattn/emmet-vim'
+        Plug 'honza/vim-snippets'
+        Plug 'epilande/vim-react-snippets'
 
-        "Plug 'KabbAmine/zeavim.vim'
+        "Plug 'Yggdroot/indentLine'
 
-        " PHP IDE
-        "Plug 'phpactor/phpactor', {'for': 'php', 'do': 'composer install'}
-        "Plug 'StanAngeloff/php.vim'
-        "Plug 'rayburgemeestre/phpfolding.vim'
-        "Plug 'stephpy/vim-php-cs-fixer'
+        Plug 'unblevable/quick-scope'
+        let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
+        Plug 'justinmk/vim-sneak'
 
-        " Deoplete ecosystem
-        "Plug 'davidhalter/jedi-vim'
-
-        "Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-        "let g:deoplete#enable_at_startup = 1
-        ""Plug 'kristijanhusak/deoplete-phpactor'
-        "Plug 'deoplete-plugins/deoplete-jedi'
-
-        "Plug 'SirVer/ultisnips'
-        "Plug 'honza/vim-snippets'
-        "let g:UltiSnipsUsePythonVersion = 3
-
-        " Plug 'hougo/neosnippet.vim'
-        " Plug 'Shougo/neosnippet-snippets'
-
-        "Plug 'nathanaelkane/vim-indent-guides'
-        Plug 'Yggdroot/indentLine'
-
-        " Plug 'easymotion/vim-easymotion'
-
-        "Plug 'unblevable/quick-scope'
-
-        Plug 'machakann/vim-highlightedyank'
-        "Plug 'vim-scripts/YankRing.vim'
-        Plug 'christoomey/vim-system-copy'
+        "Plug 'machakann/vim-highlightedyank'
+        "Plug 'christoomey/vim-system-copy'
         Plug 'liuchengxu/vim-which-key'
 
         " Dim inactive buffer
-        Plug 'TaDaa/vimade'
+        "Plug 'TaDaa/vimade'
 
+        "Plug 'godlygeek/tabular'
+        "Plug 'plasticboy/vim-markdown'
+
+        Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+        Plug 'vimwiki/vimwiki'
     " Initialize plugin system
     call plug#end()
 
 " End of plugins section }
 " OPTIONS {
 
-    au! FocusLost * VimadeFadeActive
-    au! FocusGained * VimadeUnfadeActive
-
     "let g:python_host_prog='/usr/bin/python'
     "let g:python3_host_prog='/usr/bin/python3'
 
+    set noshowmode 
+    set noruler
     set clipboard^=unnamedplus,unnamed
     "set clipboard=unnamed
     set number
@@ -132,7 +103,7 @@
     set expandtab       " Spaces instead tabs
     set hidden         " Allow buffer switching without saving
     set smartindent
-
+    set cmdheight=1
     " Get a lot from https://github.com/liuchengxu/vim-better-default/blob/master/plugin/default.vim
 
     set nocompatible
@@ -166,7 +137,7 @@
     set splitbelow     " Puts new split windows to the bottom of the current
     " set autowrite      " Automatically write a file when leaving a modified buffer
     set mousehide      " Hide the mouse cursor while typing
-    set ruler          " Show the ruler
+    "set ruler          " Show the ruler
     set showcmd        " Show partial commands in status line and Selected characters/lines in visual mode
     set showmatch      " Show matching brackets/parentthesis
     set matchtime=5    " Show matching time
@@ -183,16 +154,18 @@
     set fillchars=fold:
 
 
-    set colorcolumn=80
+    "set colorcolumn=80
 
-    let g:indentLine_char = ''
-	" enable indentation
-	set breakindent
-	" ident by an additional 2 characters on wrapped lines, when line >= 40 characters, put 'showbreak' at start of line
-	set breakindentopt=shift:2,min:40,sbr
-	" append '>>' to indent
-	let &showbreak='↳ '
-	set linebreak				" Break by whole words
+    "let g:indentLine_char = ''
+	"" enable indentation
+    set breakindent
+	"" ident by an additional 2 characters on wrapped lines, when line >= 40 characters, put 'showbreak' at start of line
+	"set breakindentopt=shift:2,min:40,sbr
+	"" append '>>' to indent
+	"let &showbreak='↳ '
+    set linebreak				" Break by whole words
+    ""let g:indentLine_setConceal = 0
+    "let g:indentLine_concealcursor = 'c'
 
     " Annoying temporary files
     set directory=/tmp//,.
@@ -206,37 +179,42 @@
     set undoreload=10000     " Maximum number lines to save for undo on a buffer reload
 
 
-    " let g:golden_ratio_wrap_ignored = 1
-	" let g:golden_ratio_exclude_nonmodifiable = 1
-
-
-    " let g:comfortable_motion_scroll_down_key = "j"
-    " let g:comfortable_motion_scroll_up_key = "k"
-
-
-    "let g:semshi#error_sign	= v:false
-
-
-    "let g:jedi#goto_command = "<leader>ggd"
-    "let g:jedi#goto_assignments_command = "<leader>gg"
-    "let g:jedi#goto_definitions_command = ""
-    "let g:jedi#documentation_command = "K"
-    "let g:jedi#usages_command = "<leader>n"
-    "let g:jedi#completions_command = "<C-Space>"
-    "let g:jedi#rename_command = "<leader>re"
-    "let g:jedi#completions_enabled = 0
 
     let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -l -g ""'
-    "
+
+
+    au BufNewFile,BufRead *.ts setlocal filetype=typescript
+    au BufNewFile,BufRead *.tsx setlocal filetype=typescript.tsx
     " FORMATTERS
-    au FileType javascript setlocal formatprg=prettier
-    au FileType javascript.jsx setlocal formatprg=prettier
-    au FileType typescript setlocal formatprg=prettier\ --parser\ typescript
+    au FileType javascript setlocal formatprg=prettier ts=2 sts=2 sw=2
+    au FileType javascript.jsx setlocal formatprg=prettier ts=2 sts=2 sw=2
+    au FileType typescript setlocal  ts=2 sts=2 sw=2 formatprg=prettier\ --parser\ typescript
     au FileType html setlocal formatprg=js-beautify\ --type\ html
     au FileType scss setlocal formatprg=prettier\ --parser\ css
     au FileType css setlocal formatprg=prettier\ --parser\ css
-" }
+
+    let g:vimwiki_global_ext = 0
+    let wiki_1 = {}
+    let wiki_1.path = '~/vimwiki/'
+    let wiki_1.syntax = 'markdown'
+    let wiki_1.ext = '.md'
+
+    let g:vimwiki_list = [wiki_1]
+    let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown'}
+    let g:vimwiki_listsyms = ' ○◐●X'
+    let g:vimwiki_table_mappings = 0
+
+    "let g:vimwiki_conceallevel = 0
+    "let g:vimwiki_conceal_pre = 1
+
+    "let g:vimwiki_url_maxsave = 0
+    setlocal concealcursor=c 
+"}
 " KEYBINDINGS {
+
+    " so I can go up an down wrapped lines
+    "map j gj
+    "map k gk
 
     let g:mapleader = "\<Space>"
     " let g:maplocalleader = ','
@@ -253,8 +231,9 @@
             " nmap <leader>t :call fzf#vim#tags(expand('<cword>'))<CR>
             nnoremap <leader>fh <Esc>:History<CR>
             " nmap <leader>b :Buffers<CR>
+            nnoremap <leader>fl :Lines<CR>
             nnoremap <leader>ff :Files<CR>
-            nnoremap <leader>ft :NERDTreeToggle<CR>
+            "nnoremap <leader>ft :NERDTreeToggle<CR>
             "nnoremap <leader>ft :Ranger<CR>
             nnoremap <leader>fp :pwd<CR>
             nnoremap <leader>fn :edit <C-R>=expand('%:p:h') . '/'<CR>
@@ -275,7 +254,7 @@
             " Search result highlight countermand
             nnoremap <leader>th :nohlsearch<CR>
             " Toggle pastemode
-            nnoremap <leader>tp :setlocal paste!<CR>
+            "nnoremap <leader>tp :setlocal paste!<CR>
 
             " Toggle wrap
             nnoremap <leader>tw :set wrap!<CR>
@@ -304,45 +283,39 @@
             "
 
             " Window
-            nnoremap <leader>ww <C-W>w
-            nnoremap <leader>wr <C-W>r
-            nnoremap <leader>wd <C-W>c
-            nnoremap <leader>wc <C-W>c
-            nnoremap <leader>wq <C-W>q
-            nnoremap <leader>wj <C-W>j
-            nnoremap <leader>wk <C-W>k
-            nnoremap <leader>wh <C-W>h
-            nnoremap <leader>wl <C-W>l
-            if has('nvim') || has('terminal')
-                tnoremap <leader>wj <C-W>j
-                tnoremap <leader>wk <C-W>k
-                tnoremap <leader>wh <C-W>h
-                tnoremap <leader>wl <C-W>l
-            endif
-            nnoremap <leader>wH <C-W>5<
-            nnoremap <leader>wL <C-W>5>
-            nnoremap <leader>wJ :resize +5<CR>
-            nnoremap <leader>wK :resize -5<CR>
-            nnoremap <leader>w= <C-W>=
-            nnoremap <leader>ws <C-W>s
-            nnoremap <leader>w- <C-W>s
-            nnoremap <leader>- <C-W>s
-            nnoremap <leader>wv <C-W>v
-            nnoremap <leader>\ <C-W>v
-            nnoremap <leader>w\ <C-W>v
-            nnoremap <leader>w2 <C-W>v
+            "nnoremap <leader>ww <C-W>w
+            "nnoremap <leader>wr <C-W>r
+            "nnoremap <leader>wd <C-W>c
+            "nnoremap <leader>wc <C-W>c
+            "nnoremap <leader>wq <C-W>q
+            "nnoremap <leader>wj <C-W>j
+            "nnoremap <leader>wk <C-W>k
+            "nnoremap <leader>wh <C-W>h
+            "nnoremap <leader>wl <C-W>l
+            "if has('nvim') || has('terminal')
+                "tnoremap <leader>wj <C-W>j
+                "tnoremap <leader>wk <C-W>k
+                "tnoremap <leader>wh <C-W>h
+                "tnoremap <leader>wl <C-W>l
+            "endif
+            "nnoremap <leader>wH <C-W>5<
+            "nnoremap <leader>wL <C-W>5>
+            "nnoremap <leader>wJ :resize +5<CR>
+            "nnoremap <leader>wK :resize -5<CR>
+            "nnoremap <leader>w= <C-W>=
+            "nnoremap <leader>ws <C-W>s
+            "nnoremap <leader>w- <C-W>s
+            "nnoremap <leader>- <C-W>s
+            "nnoremap <leader>wv <C-W>v
+            "nnoremap <leader>\ <C-W>v
+            "nnoremap <leader>w\ <C-W>v
+            "nnoremap <leader>w2 <C-W>v
 
             " Search grep
             nnoremap <silent> <leader>fa :Ag<CR>
             nnoremap <silent> <leader>faa :Ag <C-R><C-W><CR>
             nnoremap <silent> <leader>fr :Rg<CR>
             nnoremap <silent> <leader>frr :Rg <C-R><C-W><CR>
-
-
-            nmap <leader>z <Plug>Zeavim
-            vmap <leader>z <Plug>ZVVisSelection
-            nmap gz <Plug>ZVOperator
-            nmap <leader>Z <Plug>ZVKeyDocset
 
             " Python auto format code
             autocmd FileType python nnoremap <Leader>= :0,$!yapf<CR>
@@ -363,9 +336,7 @@
             " autocmd FileType python nnoremap <LocalLeader>i :!isort %<CR><CR>
 
         " }
-    " OTHER Bindings {
-
-        nmap <F8> :TagbarToggle<CR>
+" OTHER Bindings {
 
         " Insert mode shortcut
         inoremap <C-h> <BS>
@@ -430,7 +401,13 @@
         " Escape from terminal mode in terminal
         tnoremap <S-Esc> <C-\><C-n>
 
-    " }
+        nnoremap <A-j> :m .+1<CR>==
+        nnoremap <A-k> :m .-2<CR>==
+        inoremap <A-j> <Esc>:m .+1<CR>==gi
+        inoremap <A-k> <Esc>:m .-2<CR>==gi
+        vnoremap <A-j> :m '>+1<CR>gv=gv
+        vnoremap <A-k> :m '<-2<CR>gv=gv
+" }
 
 " }
 " COLOR SCHEME {
@@ -442,69 +419,30 @@
     set fcs=eob:\ 
 
     let g:palenight_terminal_italics=1
-    let g:onedark_hide_endofbuffer=1
-    let g:onedark_terminal_italics=1
-
-
-    "if (has("autocmd"))
-      "augroup colorextend
-        "autocmd!
-        "" Make `Function`s bold in GUI mode
-        "autocmd ColorScheme * call onedark#extend_highlight("Comment", { "gui": "italic" })
-        "" Override the `Statement` foreground color in 256-color mode
-        "autocmd ColorScheme * call onedark#extend_highlight("Statement", { "fg": { "cterm": 128 } })
-        "" Override the `Identifier` background color in GUI mode
-        "autocmd ColorScheme * call onedark#extend_highlight("Identifier", { "fg": { "gui": 148 } })
-      "augroup END
-    "endif
-
-    let g:gruvbox_material_enable_bold = 1
-    let g:gruvbox_material_disable_italic_comment = 1
+    let g:palenight_terminal_bold=1
 
     set background=dark
-    let g:airline_theme = 'palenight'
-    let g:gruvbox_material_enable_italic = 1
-    let g:one_allow_italics = 1
 
-    "colorscheme gruvbox-material
-    "colorscheme one
     colorscheme palenight
-
-
-   " " WARNING: Код ниже меняет цвет активного бэкграунда, при смене темы нужно менять вручную!
-    "" Dim inactive window {
-
-        "" Background colors for active vs inactive windows
-        "hi InactiveWindow guibg=synIDattr(hlID("Normal"), "bg")
-        ""guibg=NONE ctermbg=NONE
-
-
-        "hi ActiveWindow guibg=#252938
-
-        "" Call method on window enter
-        "augroup WindowManagement
-            "autocmd!
-            "autocmd WinEnter * call Handle_Win_Enter()
-            "" autocmd WinEnter * set colorcolumn=80
-            "" autocmd WinLeave * set colorcolumn=0
-        "augroup END
-
-        "" Change highlight group of active/inactive windows
-        "function! Handle_Win_Enter()
-            "setlocal winhighlight=Normal:ActiveWindow,NormalNC:InactiveWindow
-        "endfunction
-
-    "" }
 
     " Если нужна прозрачность терминала
      hi! Normal ctermbg=NONE guibg=NONE
 
+     " Color name (:help cterm-colors) or ANSI code
+     let g:limelight_conceal_ctermfg = 'gray'
+     let g:limelight_conceal_ctermfg = 240
+     " Color name (:help gui-colors) or RGB color
+     let g:limelight_conceal_guifg = 'DarkGray'
+     let g:limelight_conceal_guifg = '#777777'
+
+     autocmd! User GoyoEnter Limelight
+     autocmd! User GoyoLeave Limelight!
+
 " }
 " AIRLINE options {
 
-    "let g:airline_theme='onedark'
-
-    let g:airline#extensions#ale#enabled = 1
+    let g:airline_theme = 'palenight'
+    "let g:airline#extensions#ale#enabled = 1
 
     let g:airline_powerline_fonts = 1
     let g:airline#extensions#tabline#fnamemod = ':t'
@@ -528,6 +466,7 @@
     let g:airline#extensions#tabline#right_alt_sep = ''
     let g:airline_right_alt_sep = ''
     let g:airline#extensions#tabline#buffer_idx_mode = 1
+
     nmap <leader>1 <Plug>AirlineSelectTab1
     nmap <leader>2 <Plug>AirlineSelectTab2
     nmap <leader>3 <Plug>AirlineSelectTab3
@@ -541,8 +480,8 @@
     " nmap <leader>+ <Plug>AirlineSelectNextTab
 
 
-  "}
-  " Which_Key options {
+"}
+" Which_Key options {
   set timeoutlen=500
   let g:which_key_vertical = 0
 
@@ -644,177 +583,41 @@
 
   autocmd! FileType which_key
   autocmd  FileType which_key set laststatus=0 noshowmode noruler
-              \| autocmd BufLeave <buffer> set laststatus=2 showmode ruler
-
-  " }
-  " Startify {
-
-        " Keep sessions persistense
-        let g:startify_session_persistence = 1
-
-  " }
-" Easymotions mappings {
-
-    " " map  / <Plug>(easymotion-sn)
-    " " omap / <Plug>(easymotion-tn)
-    " let g:EasyMotion_do_mapping = 0 " Disable default mappings
-
-    " " Jump to anywhere you want with minimal keystrokes, with just one key binding.
-    " " `s{char}{label}`
-    " nmap f <Plug>(easymotion-overwin-f)
-    " nmap s <Plug>(easymotion-overwin-f2)
-    " nmap F <Plug>(easymotion-overwin-w)
-
-    " " Turn on case insensitive feature
-    " let g:EasyMotion_smartcase = 1
-
-    " " JK motions: Line motions
-    " map <leader>ej <Plug>(easymotion-j)
-    " map <leader>ek <Plug>(easymotion-k)
-
-    " " These `n` & `N` mappings are options. You do not have to map `n` & `N` to EasyMotion.
-    " " Without these mappings, `n` & `N` works fine. (These mappings just provide
-    " " different highlight method and have some other features )
-    " " map  n <Plug>(easymotion-next)
-    " " map  N <Plug>(easymotion-prev)
+              \| autocmd BufLeave <buffer> set laststatus=2 noshowmode noruler
 
 " }
-" TagBar {
+" Startify {
 
-    let g:tagbar_phpctags_bin='phpctags'
-
-    let g:tagbar_type_css = {
-                \ 'ctagstype' : 'Css',
-                \ 'kinds'     : [
-                \ 'c:classes',
-                \ 's:selectors',
-                \ 'i:identities'
-                \ ]
-                \ }
-    let g:tagbar_type_ansible = {
-                \ 'ctagstype' : 'ansible',
-                \ 'kinds' : [
-                \ 't:tasks'
-                \ ],
-                \ 'sort' : 0
-                \ }
-    let g:tagbar_type_markdown = {
-        \ 'ctagstype' : 'markdown',
-        \ 'kinds' : [
-            \ 'h:Heading_L1',
-            \ 'i:Heading_L2',
-            \ 'k:Heading_L3'
-        \ ]
-    \ }
-
-    function! StartifyEntryFormat()
-        return 'WebDevIconsGetFileTypeSymbol(absolute_path) ." ". entry_path'
+    " Keep sessions persistense
+    let g:startify_session_persistence = 1
+    " returns all modified files of the current git repo
+    " `2>/dev/null` makes the command fail quietly, so that when we are not
+    " in a git repo, the list will be empty
+    function! s:gitModified()
+        let files = systemlist('git ls-files -m 2>/dev/null')
+        return map(files, "{'line': v:val, 'path': v:val}")
     endfunction
 
-" }
-" Gutentags module options {
+    " same as above, but show untracked files, honouring .gitignore
+    function! s:gitUntracked()
+        let files = systemlist('git ls-files -o --exclude-standard 2>/dev/null')
+        return map(files, "{'line': v:val, 'path': v:val}")
+    endfunction
 
-    " let g:gutentags_modules = ['ctags', 'gtags_cscope']
-
-    " " config project root markers.
-    " let g:gutentags_project_root = ['.root']
-
-    " " generate datebases in my cache directory, prevent gtags files polluting my project
-    " let g:gutentags_cache_dir = expand('~/.cache/tags')
-
-    " " change focus to quickfix window after search (optional).
-    " let g:gutentags_plus_switch = 1
-    " let g:gutentags_plus_nomap = 1
-
-    " noremap <silent> <leader>ts :GscopeFind s <C-R><C-W><cr>
-    " noremap <silent> <leader>tg :GscopeFind g <C-R><C-W><cr>
-    " noremap <silent> <leader>tc :GscopeFind c <C-R><C-W><cr>
-    " noremap <silent> <leader>tt :GscopeFind t <C-R><C-W><cr>
-    " noremap <silent> <leader>te :GscopeFind e <C-R><C-W><cr>
-    " noremap <silent> <leader>tf :GscopeFind f <C-R>=expand("<cfile>")<cr><cr>
-    " noremap <silent> <leader>ti :GscopeFind i <C-R>=expand("<cfile>")<cr><cr>
-    " noremap <silent> <leader>td :GscopeFind d <C-R><C-W><cr>
-    " noremap <silent> <leader>ta :GscopeFind a <C-R><C-W><cr>
-
-" }
-"" PHP Actor bindings {
-
-    ""  Include use statement
-    "nmap <leader>pu :call phpactor#UseAdd()<CR>
-
-    "" Invoke the context menu
-    "nmap <leader>pm :call phpactor#ContextMenu()<CR>
-
-    "" Invoke the navigation menu
-    "nmap <leader>pn :call phpactor#Navigate()<CR>
-
-    "" Goto definition of class or class member under the cursor
-    "nmap <leader>pd  :call phpactor#GotoDefinition()<CR>
-    "nmap <leader>gd  :call phpactor#GotoDefinition()<CR>
-
-    "" Show brief information about the symbol under the cursor
-    "nmap <leader>ph :call phpactor#Hover()<CR>
-
-    "" Transform the classes in the current file
-    "nmap <leader>pt :call phpactor#Transform()<CR>
-
-    "" Generate a new class (replacing the current file)
-    "nmap <leader>pc :call phpactor#ClassNew()<CR>
-
-    "" Extract expression (normal mode)
-    "nmap <silent><leader>pe :call phpactor#ExtractExpression(v:false)<CR>
-
-    "" Extract expression from selection
-    "vmap <silent><leader>pe :<C-U>call phpactor#ExtractExpression(v:true)<CR>
-
-    "" Extract method from selection
-    "vmap <silent><leader>px :<C-U>call phpactor#ExtractMethod()<CR>
-
-""}
-" Ale signs and options {
-
-    let g:ale_sign_error = ' '
-    let g:ale_sign_warning = ' '
-    " let g:ale_lint_delay = '5000'
-
-	"	disable linting while typing
-	let g:ale_lint_on_text_changed = 'never'
-	let g:ale_lint_on_enter = 0
-	let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
-	let g:ale_open_list = 1
-	let g:ale_keep_list_window_open=0
-	let g:ale_set_quickfix=0
-	let g:ale_list_window_size = 5
-	let g:ale_php_phpcbf_standard='PSR2'
-	let g:ale_php_phpcs_standard='phpcs.xml.dist'
-	let g:ale_php_phpmd_ruleset='phpmd.xml'
-	let g:ale_fixers = {
-				\ '*': ['remove_trailing_lines'],
-				\ 'php': ['phpcbf', 'php_cs_fixer', 'remove_trailing_lines', 'trim_whitespace'],
-                \ 'python' : [
-                    \   'remove_trailing_lines',
-                    \   'add_blank_lines_for_python_control_statements',
-                    \   'trim_whitespace',
-                    \   'isort',
-                    \   'autopep8',
-                \],
-                \    'javascript': ['prettier','eslint'],
-                \    'typescript': ['prettier', 'tslint'],
-                \    'vue': ['eslint'],
-                \    'scss': ['prettier'],
-                \    'html': ['prettier'],
-                \    'reason': ['refmt']				
-            \}
-    let g:ale_linters = {
-	\   'python': ['flake8'],
-    \   'javascript': ['eslint'],
-    \   'vue': ['eslint']
-	\}
-	let g:ale_fix_on_save = 1
+    let g:startify_lists = [
+                \ { 'type': 'files',     'header': ['   MRU']            },
+                \ { 'type': 'dir',       'header': ['   MRU '. getcwd()] },
+                \ { 'type': 'sessions',  'header': ['   Sessions']       },
+                \ { 'type': 'bookmarks', 'header': ['   Bookmarks']      },
+                \ { 'type': function('s:gitModified'),  'header': ['   git modified']},
+                \ { 'type': function('s:gitUntracked'), 'header': ['   git untracked']},
+                \ { 'type': 'commands',  'header': ['   Commands']       },
+                \ ]
 
 " }
 " coc.nvim configuration {
 
+    let g:coc_global_extensions = ['coc-python','coc-tslint-plugin', 'coc-tsserver', 'coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-yank', 'coc-prettier', 'coc-explorer', 'coc-snippets']
     " TextEdit might fail if hidden is not set.
     set hidden
 
@@ -823,7 +626,7 @@
     set nowritebackup
 
     " Give more space for displaying messages.
-    set cmdheight=2
+    "set cmdheight=2
 
     " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
     " delays and poor user experience.
@@ -868,6 +671,7 @@
 
     " GoTo code navigation.
     nmap <silent> gd <Plug>(coc-definition)
+    "nmap <silent> gd :call CocAction('jumpDefinition', 'vsplit')<CR>
     nmap <silent> gy <Plug>(coc-type-definition)
     "nmap <silent> gi <Plug>(coc-implementation)
     nmap <silent> gr <Plug>(coc-references)
@@ -956,18 +760,71 @@
     " Resume latest coc list.
     nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 
+    nmap <space>ft :CocCommand explorer<CR>
 
+    nmap <space>ef :CocCommand explorer --preset floating<CR>
+
+    let g:coc_explorer_global_presets = {
+                \   '.vim': {
+                \      'root-uri': '~/.vim',
+                \   },
+                \   'floating': {
+                \      'position': 'floating',
+                \   },
+                \   'floatingLeftside': {
+                \      'position': 'floating',
+                \      'floating-position': 'left-center',
+                \      'floating-width': 50,
+                \   },
+                \   'floatingRightside': {
+                \      'position': 'floating',
+                \      'floating-position': 'left-center',
+                \      'floating-width': 50,
+                \   },
+                \   'simplify': {
+                \     'file.child.template': '[selection | clip | 1] [indent][icon | 1] [filename omitCenter 1]'
+                \   }
+                \ }
+
+    " Use <C-l> for trigger snippet expand.
+    imap <C-l> <Plug>(coc-snippets-expand)
+
+    " Use <C-j> for select text for visual placeholder of snippet.
+    vmap <C-j> <Plug>(coc-snippets-select)
+
+    " Use <C-j> for jump to next placeholder, it's default of coc.nvim
+    let g:coc_snippet_next = '<c-j>'
+
+    " Use <C-k> for jump to previous placeholder, it's default of coc.nvim
+    let g:coc_snippet_prev = '<c-k>'
+
+    " Use <C-j> for both expand and jump (make expand higher priority.)
+    imap <C-j> <Plug>(coc-snippets-expand-jump)
 " }
-" Save folds view and load them Automatically {
+" Sneak movement options {
+    let g:sneak#label = 1
 
-    " set viewdir=$HOME/.config/nvim/view//
-    " augroup AutoSaveFolds
-    "     autocmd!
-		" au BufWinLeave ?* silent! mkview 1
-		" au BufWinEnter ?* silent! loadview 1
-    " augroup END
+    " case insensitive sneak
+    let g:sneak#use_ic_scs = 1
 
-    " Autoload Nerdtree on vim start and send cursor to other window
-    " autocmd VimEnter * NERDTree | wincmd p
+    " immediately move to the next instance of search, if you move the cursor sneak is back to default behavior
+    let g:sneak#s_next = 1
 
+    " remap so I can use , and ; with f and t
+    map gS <Plug>Sneak_,
+    map gs <Plug>Sneak_;
+
+    " Change the colors
+    highlight Sneak guifg=black guibg=#00C7DF ctermfg=black ctermbg=cyan
+    highlight SneakScope guifg=red guibg=yellow ctermfg=red ctermbg=yellow
+
+    " Cool prompts
+    " let g:sneak#prompt = '🕵'
+     let g:sneak#prompt = '🔎'
+
+    " I like quickscope better for this since it keeps me in the scope of a single line
+    " map f <Plug>Sneak_f
+    " map F <Plug>Sneak_F
+    " map t <Plug>Sneak_t
+    " map T <Plug>Sneak_T
 "}
