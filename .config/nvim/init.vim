@@ -16,13 +16,9 @@
         Plug 'tmux-plugins/vim-tmux-focus-events'
         Plug 'edkolev/tmuxline.vim'
 
-        "Plug 'lilydjwg/colorizer'
         Plug 'vim-airline/vim-airline'
 
         Plug 'jiangmiao/auto-pairs'
-
-
-        Plug 'junegunn/limelight.vim'
 
         Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
         Plug 'junegunn/fzf.vim'
@@ -41,6 +37,7 @@
         " Git
         Plug 'tpope/vim-fugitive'
         Plug 'airblade/vim-gitgutter'
+        Plug 'APZelos/blamer.nvim'
 
         " Syntaxis
         Plug 'tpope/vim-haml'
@@ -73,7 +70,7 @@
         let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
         Plug 'justinmk/vim-sneak'
 
-        "Plug 'machakann/vim-highlightedyank'
+        Plug 'machakann/vim-highlightedyank'
         "Plug 'christoomey/vim-system-copy'
         Plug 'liuchengxu/vim-which-key'
 
@@ -83,7 +80,7 @@
         "Plug 'godlygeek/tabular'
         "Plug 'plasticboy/vim-markdown'
 
-        Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+        Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug', 'vimwiki']}
         Plug 'vimwiki/vimwiki'
     " Initialize plugin system
     call plug#end()
@@ -94,9 +91,31 @@
     "let g:python_host_prog='/usr/bin/python'
     "let g:python3_host_prog='/usr/bin/python3'
 
-    set noshowmode 
+    set noshowmode  " to get rid of thing like --INSERT--
+    set noshowcmd  " to get rid of display of last command
     set noruler
-    set clipboard^=unnamedplus,unnamed
+    "set clipboard^=unnamedplus,unnamed
+
+    "// WSL workaround for clipboard yank working
+    set clipboard+=unnamedplus
+
+   if has('wsl')
+       let g:clipboard = {
+                 \   'name': 'wslclipboard',
+                 \   'copy': {
+                 \      '+': '/path/to/win32yank.exe -i --crlf',
+                 \      '*': '/path/to/win32yank.exe -i --crlf',
+                 \    
+       },
+                   \   'paste': {
+                 \      '+': '/path/to/win32yank.exe -o --lf',
+                 \      '*': '/path/to/win32yank.exe -o --lf',
+                 \   
+       },
+                 \   'cache_enabled': 1,
+                 \ 
+       }
+   endif
     "set clipboard=unnamed
     set number
     set relativenumber
@@ -125,7 +144,7 @@
     set wildmenu                   " Show list instead of just completing
 
     set iskeyword=@,48-57,_,192-255     " Навигация с учетом русских символов, учитывается командами следующее/предыдущее слово и т.п.
-    set shortmess=atOI " No help Uganda information, and overwrite read messages to avoid PRESS ENTER prompts
+    set shortmess=atOIF " No help Uganda information, and overwrite read messages to avoid PRESS ENTER prompts
     set ignorecase     " Case insensitive search
     set smartcase      " ... but case sensitive when uc present
     set scrolloff=3    " Minumum lines to keep above and below cursor
@@ -180,11 +199,16 @@
 
 
 
+    let g:netrw_browsex_viewer="cmd.exe /C start %" 
+
     let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -l -g ""'
+    let $FZF_DEFAULT_OPTS='--height 40% --inline-info'
 
 
-    au BufNewFile,BufRead *.ts setlocal filetype=typescript
-    au BufNewFile,BufRead *.tsx setlocal filetype=typescript.tsx
+    au BufNewFile,BufRead *.ts setlocal filetype=typescriptreact
+    au BufNewFile,BufRead *.js setlocal filetype=javascriptreact
+    autocmd BufRead,BufNewFile *.jsx setlocal filetype=javascriptreact.javascript.javascript-react.javascript_react
+    autocmd BufRead,BufNewFile *.tsx setlocal filetype=typescriptreact.javascript.typescript.javascriptreact.javascript-react.javascript_react
     " FORMATTERS
     au FileType javascript setlocal formatprg=prettier ts=2 sts=2 sw=2
     au FileType javascript.jsx setlocal formatprg=prettier ts=2 sts=2 sw=2
@@ -209,6 +233,16 @@
 
     "let g:vimwiki_url_maxsave = 0
     setlocal concealcursor=c 
+
+
+    let g:blamer_enabled = 1
+    let g:blamer_show_in_visual_modes = 0
+    let g:blamer_show_in_insert_modes = 0
+    let g:blamer_prefix = ' > '
+    highlight link Blamer NonText
+    "highlight Blamer guifg=#3e445c
+    
+    
 "}
 " KEYBINDINGS {
 
@@ -220,26 +254,44 @@
     " let g:maplocalleader = ','
 
         " LEADER bindings {
+            nmap <C-_>   <Plug>NERDCommenterToggle
+            vmap <C-_>   <Plug>NERDCommenterToggle<CR>gv
 
             map <leader>o <Esc>:only<CR>
             map <leader>s <Esc>:Startify<CR>
+            map <leader>m <Esc>:MarkdownPreview<CR>
+            map <leader>mm <Esc>:MarkdownPreviewStop<CR>
 
             autocmd Filetype python nnoremap <buffer> <leader>r :sp <CR> :term python3 % <CR>:startinsert<CR>
 
             map <leader><leader> <C-^>
 
             " nmap <leader>t :call fzf#vim#tags(expand('<cword>'))<CR>
-            nnoremap <leader>fh <Esc>:History<CR>
-            " nmap <leader>b :Buffers<CR>
-            nnoremap <leader>fl :Lines<CR>
-            nnoremap <leader>ff :Files<CR>
-            "nnoremap <leader>ft :NERDTreeToggle<CR>
-            "nnoremap <leader>ft :Ranger<CR>
-            nnoremap <leader>fp :pwd<CR>
-            nnoremap <leader>fn :edit <C-R>=expand('%:p:h') . '/'<CR>
-            nnoremap <leader>fs :update<CR>
-            nnoremap <leader>fc :cd <C-R>=expand('%:p:h') . '/'<CR>
+            "nnoremap <leader>fh <Esc>:History<CR>
+            "nnoremap <leader>fl :Lines<CR>
+            "nnoremap <leader>ff :Files<CR>
+            "nnoremap <leader>fp :pwd<CR>
+            "nnoremap <leader>fn :edit <C-R>=expand('%:p:h') . '/'<CR>
+            "nnoremap <leader>fs :update<CR>
+            "nnoremap <leader>fc :cd <C-R>=expand('%:p:h') . '/'<CR>
 
+
+            nnoremap <Leader>fh     :<C-u>CocCommand fzf-preview.MruFiles<CR>
+            nnoremap <Leader>ff     :<C-u>CocCommand fzf-preview.FromResources project_mru git<CR>
+            nnoremap <Leader>fgs    :<C-u>CocCommand fzf-preview.GitStatus<CR>
+            nnoremap <Leader>fga    :<C-u>CocCommand fzf-preview.GitActions<CR>
+            nnoremap <Leader>fb     :<C-u>CocCommand fzf-preview.Buffers<CR>
+            nnoremap <Leader>fB     :<C-u>CocCommand fzf-preview.AllBuffers<CR>
+            nnoremap <Leader>fo     :<C-u>CocCommand fzf-preview.FromResources buffer project_mru<CR>
+            nnoremap <Leader>fj     :<C-u>CocCommand fzf-preview.Jumps<CR>
+            nnoremap <Leader>fg;    :<C-u>CocCommand fzf-preview.Changes<CR>
+            nnoremap <Leader>f/     :<C-u>CocCommand fzf-preview.Lines --add-fzf-arg=--no-sort --add-fzf-arg=--query="'"<CR>
+            nnoremap <Leader>f*     :<C-u>CocCommand fzf-preview.Lines --add-fzf-arg=--no-sort --add-fzf-arg=--query="'<C-r>=expand('<cword>')<CR>"<CR>
+            nnoremap <Leader>fgr    :<C-u>CocCommand fzf-preview.ProjectGrep<Space>
+            xnoremap <Leader>fgr    "sy:CocCommand   fzf-preview.ProjectGrep<Space>-F<Space>"<C-r>=substitute(substitute(@s, '\n', '', 'g'), '/', '\\/', 'g')<CR>"
+            "nnoremap <Leader>ft     :<C-u>CocCommand fzf-preview.BufferTags<CR>
+            nnoremap <Leader>fq     :<C-u>CocCommand fzf-preview.QuickFix<CR>
+            nnoremap <Leader>fl     :<C-u>CocCommand fzf-preview.LocationList<CR>
 
             nnoremap <leader>go :Goyo<CR>
             " Quit normal mode
@@ -284,32 +336,32 @@
 
             " Window
             "nnoremap <leader>ww <C-W>w
-            "nnoremap <leader>wr <C-W>r
-            "nnoremap <leader>wd <C-W>c
-            "nnoremap <leader>wc <C-W>c
-            "nnoremap <leader>wq <C-W>q
-            "nnoremap <leader>wj <C-W>j
-            "nnoremap <leader>wk <C-W>k
-            "nnoremap <leader>wh <C-W>h
-            "nnoremap <leader>wl <C-W>l
-            "if has('nvim') || has('terminal')
-                "tnoremap <leader>wj <C-W>j
-                "tnoremap <leader>wk <C-W>k
-                "tnoremap <leader>wh <C-W>h
-                "tnoremap <leader>wl <C-W>l
-            "endif
-            "nnoremap <leader>wH <C-W>5<
-            "nnoremap <leader>wL <C-W>5>
-            "nnoremap <leader>wJ :resize +5<CR>
-            "nnoremap <leader>wK :resize -5<CR>
-            "nnoremap <leader>w= <C-W>=
-            "nnoremap <leader>ws <C-W>s
-            "nnoremap <leader>w- <C-W>s
-            "nnoremap <leader>- <C-W>s
-            "nnoremap <leader>wv <C-W>v
-            "nnoremap <leader>\ <C-W>v
-            "nnoremap <leader>w\ <C-W>v
-            "nnoremap <leader>w2 <C-W>v
+            nnoremap <leader>wr <C-W>r
+            nnoremap <leader>wd <C-W>c
+            nnoremap <leader>wc <C-W>c
+            nnoremap <leader>wq <C-W>q
+            nnoremap <leader>wj <C-W>j
+            nnoremap <leader>wk <C-W>k
+            nnoremap <leader>wh <C-W>h
+            nnoremap <leader>wl <C-W>l
+            if has('nvim') || has('terminal')
+                tnoremap <leader>wj <C-W>j
+                tnoremap <leader>wk <C-W>k
+                tnoremap <leader>wh <C-W>h
+                tnoremap <leader>wl <C-W>l
+            endif
+            nnoremap <leader>wH <C-W>5<
+            nnoremap <leader>wL <C-W>5>
+            nnoremap <leader>wJ :resize +5<CR>
+            nnoremap <leader>wK :resize -5<CR>
+            nnoremap <leader>w= <C-W>=
+            nnoremap <leader>ws <C-W>s
+            nnoremap <leader>w- <C-W>s
+            nnoremap <leader>- <C-W>s
+            nnoremap <leader>wv <C-W>v
+            nnoremap <leader>\ <C-W>v
+            nnoremap <leader>w\ <C-W>v
+            nnoremap <leader>w2 <C-W>v
 
             " Search grep
             nnoremap <silent> <leader>fa :Ag<CR>
@@ -424,19 +476,11 @@
     set background=dark
 
     colorscheme palenight
+    "colorscheme palenight
 
     " Если нужна прозрачность терминала
      hi! Normal ctermbg=NONE guibg=NONE
 
-     " Color name (:help cterm-colors) or ANSI code
-     let g:limelight_conceal_ctermfg = 'gray'
-     let g:limelight_conceal_ctermfg = 240
-     " Color name (:help gui-colors) or RGB color
-     let g:limelight_conceal_guifg = 'DarkGray'
-     let g:limelight_conceal_guifg = '#777777'
-
-     autocmd! User GoyoEnter Limelight
-     autocmd! User GoyoLeave Limelight!
 
 " }
 " AIRLINE options {
@@ -448,10 +492,11 @@
     let g:airline#extensions#tabline#fnamemod = ':t'
     let g:airline#extensions#tabline#enabled = 1
     let g:airline#extensions#tabline#show_splits = 0
-    let g:airline_extensions = ['branch', 'tabline', 'virtualenv']
+    let g:airline_extensions = ['branch', 'virtualenv']
+    "let g:airline_extensions = ['branch', 'tabline', 'virtualenv']
     "let g:airline_section_b = '%{virtualenv#statusline()}'
     let g:airline#extensions#virtualenv#enabled = 1
-    let g:airline_section_c = '%f'
+    let g:airline_section_c = '%f %m'
     let g:airline_section_z = '%3p%%  %l/%L  %c'
     let g:airline_left_sep=''
     let g:airline_right_sep=''
@@ -460,9 +505,9 @@
     " let g:airline#extensions#tabline#fnamemod = ':~'
     let g:airline#extensions#tabline#fnamecollapse = 1
     let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
-    let g:airline#extensions#tabline#left_sep = ''
+    let g:airline#extensions#tabline#left_sep = '|'
     let g:airline#extensions#tabline#left_alt_sep = ''
-    let g:airline#extensions#tabline#right_sep = ''
+    let g:airline#extensions#tabline#right_sep = '|'
     let g:airline#extensions#tabline#right_alt_sep = ''
     let g:airline_right_alt_sep = ''
     let g:airline#extensions#tabline#buffer_idx_mode = 1
@@ -616,6 +661,11 @@
 
 " }
 " coc.nvim configuration {
+    let g:coc_filetype_map = {
+          \ '': 'html',
+          \ 'javascriptreact.javascript.javascript-react.javascript_react': 'javascriptreact',
+          \ 'typescriptreact.javascript.typescript.javascriptreact.javascript-react.javascript_react': 'typescriptreact'
+          \ }
 
     let g:coc_global_extensions = ['coc-python','coc-tslint-plugin', 'coc-tsserver', 'coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-yank', 'coc-prettier', 'coc-explorer', 'coc-snippets']
     " TextEdit might fail if hidden is not set.
@@ -700,7 +750,7 @@
     augroup mygroup
       autocmd!
       " Setup formatexpr specified filetype(s).
-      autocmd FileType typescript,json setl formatexpr=CocAction('formatSelected')
+      autocmd FileType typescript,json,md setl formatexpr=CocAction('formatSelected')
       " Update signature help on jump placeholder.
       autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
     augroup end
@@ -725,8 +775,8 @@
     " Use <TAB> for selections ranges.
     " NOTE: Requires 'textDocument/selectionRange' support from the language server.
     " coc-tsserver, coc-python are the examples of servers that support it.
-    nmap <silent> <TAB> <Plug>(coc-range-select)
-    xmap <silent> <TAB> <Plug>(coc-range-select)
+    "nmap <silent> <TAB> <Plug>(coc-range-select)
+    "xmap <silent> <TAB> <Plug>(coc-range-select)
 
     " Add `:Format` command to format current buffer.
     command! -nargs=0 Format :call CocAction('format')
@@ -761,6 +811,7 @@
     nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 
     nmap <space>ft :CocCommand explorer<CR>
+    "nmap <space>fb :CocCommand explorer --sources=buffer+<CR>
 
     nmap <space>ef :CocCommand explorer --preset floating<CR>
 
@@ -823,8 +874,63 @@
      let g:sneak#prompt = '🔎'
 
     " I like quickscope better for this since it keeps me in the scope of a single line
-    " map f <Plug>Sneak_f
-    " map F <Plug>Sneak_F
+     "map f <Plug>Sneak_f
+     "map F <Plug>Sneak_F
     " map t <Plug>Sneak_t
     " map T <Plug>Sneak_T
+"}
+" FZF config {
+    " This is the default extra key bindings
+    let g:fzf_action = {
+      \ 'ctrl-t': 'tab split',
+      \ 'ctrl-x': 'split',
+      \ 'ctrl-v': 'vsplit' }
+
+    " An action can be a reference to a function that processes selected lines
+    function! s:build_quickfix_list(lines)
+      call setqflist(map(copy(a:lines), '{ "filename": v:val }'))
+      copen
+      cc
+    endfunction
+
+    let g:fzf_action = {
+      \ 'ctrl-q': function('s:build_quickfix_list'),
+      \ 'ctrl-t': 'tab split',
+      \ 'ctrl-x': 'split',
+      \ 'ctrl-v': 'vsplit' }
+
+    " Default fzf layout
+    " - Popup window
+    "let g:fzf_layout = { 'window': { 'width': 0.9, 'height': 0.6 } }
+
+    " - down / up / left / right
+    let g:fzf_layout = { 'down': '40%' }
+
+    " - Window using a Vim command
+    "let g:fzf_layout = { 'window': 'enew' }
+    "let g:fzf_layout = { 'window': '-tabnew' }
+    "let g:fzf_layout = { 'window': '10new' }
+
+    " Customize fzf colors to match your color scheme
+    " - fzf#wrap translates this to a set of `--color` options
+    let g:fzf_colors =
+    \ { 'fg':      ['fg', 'Normal'],
+      \ 'bg':      ['bg', 'Normal'],
+      \ 'hl':      ['fg', 'Comment'],
+      \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
+      \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
+      \ 'hl+':     ['fg', 'Statement'],
+      \ 'info':    ['fg', 'PreProc'],
+      \ 'border':  ['fg', 'Ignore'],
+      \ 'prompt':  ['fg', 'Conditional'],
+      \ 'pointer': ['fg', 'Exception'],
+      \ 'marker':  ['fg', 'Keyword'],
+      \ 'spinner': ['fg', 'Label'],
+      \ 'header':  ['fg', 'Comment'] }
+
+    " Enable per-command history
+    " - History files will be stored in the specified directory
+    " - When set, CTRL-N and CTRL-P will be bound to 'next-history' and
+    "   'previous-history' instead of 'down' and 'up'.
+    let g:fzf_history_dir = '~/.local/share/fzf-history'
 "}
