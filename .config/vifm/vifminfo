@@ -4,27 +4,27 @@
 'H
 	/home/docker/
 	..
-1547183189
+1594188510
 'b
-	/home/rustam/bin/
+	/home/docker/bin/
 	..
-1588620791
+1594188510
 'g
 	/home/docker/Projects/gp227/src
 	app
 1551541380
 'h
-	/home/rustam/
+	/home/docker/
 	..
-1588620791
+1594188510
 'j
 	/home/docker/Sklad/Videos/HS@H Mastermind
 	Free Association Tutorial (Premium Full-Length Version).mp4
 1571376070
 'm
-	/home/rustam/Sklad/Manuals
-	..
-1592943353
+	/home/docker/Projects/innoscripta/external-forms-frontend
+	.elsintrx.json.bak
+1627363403
 'o
 	/home
 	docker
@@ -34,9 +34,9 @@
 	exper
 1588690977
 'v
-	/home/docker/Videos
-	loro_2018_1080p.mkv
-1551628736
+	/home/docker/Projects/innoscripta/external-forms-frontend
+	.evn.development
+1628156544
 
 # Bookmarks:
 b/home/docker/Videos/
@@ -50,7 +50,7 @@ b/home/docker/Projects/gp227/
 	1551628879
 
 # TUI:
-ar
+al
 q0
 v2
 ov
@@ -59,635 +59,612 @@ l12
 r12
 
 # Left window history (oldest to newest):
-d/run/media/rustam/Sklad/Manuals
-	ReactTraining - Learn React Hooks By Building A Real Application
-28
-d/run/media/rustam/Sklad/Manuals/ReactTraining - Learn React Hooks By Building A Real Application
-	..
-0
-d/run/media/rustam/Sklad/Manuals
-	ReactTraining - Learn React Hooks By Building A Real Application
-28
-d/run/media/rustam/Sklad/Manuals/ReactTraining - Learn React Hooks By Building A Real Application
-	..
-0
-d/run/media/rustam/Sklad/Manuals
-	ReactTraining - Learn React Hooks By Building A Real Application
-28
-d/run/media/rustam/Sklad/Manuals/ReactTraining - Learn React Hooks By Building A Real Application
-	..
-0
-d/run/media/rustam/Sklad/Manuals
-	ReactTraining - Learn React Hooks By Building A Real Application
-28
-d/run/media/rustam/Sklad/Manuals/ReactTraining - Learn React Hooks By Building A Real Application
-	78. goodbyeworld.mp4
-40
-d/run/media/rustam/Sklad/Manuals
-	Firebase + React - Real-time, Serverless Web Apps
-11
-d/run/media/rustam/Sklad/Manuals/Firebase + React - Real-time, Serverless Web Apps
-	1. Firebase + React
-1
-d/run/media/rustam/Sklad/Manuals/Firebase + React - Real-time, Serverless Web Apps/1. Firebase + React
-	1. Introduction.mp4
-1
-d/run/media/rustam/Sklad/Manuals/Firebase + React - Real-time, Serverless Web Apps
-	1. Firebase + React
-1
-d/run/media/rustam/Sklad/Manuals
-	Intermediate Gatsby with Gatsby Themes
-14
-d/run/media
-	..
-0
-d/run
-	media
-11
-d/run/media
-	rustam
-1
-d/run/media/rustam
-	79AC835C49BEF452
-1
-d/run/media/rustam/79AC835C49BEF452
-	Videos
-5
-d/run/media/rustam/79AC835C49BEF452/Videos
-	Fantasy.Island.2020.AMZN.WEB-DLRip.1.46Gb.MegaPeer
-3
-d/run/media
-	..
-0
-d/run
-	media
-11
-d/run/media/rustam/Sklad/Manuals/ReactTraining - Learn React Hooks By Building A Real Application
-	78. goodbyeworld.mp4
-40
-d/run/media/rustam/Sklad/Manuals
-	ReactTraining - Learn React Hooks By Building A Real Application
-28
-d/run/media/rustam/Sklad
-	Manuals
-11
-d/run/media/rustam/Sklad/Manuals
-	ReactTraining - Learn React Hooks By Building A Real Application
-28
-d/run/media/rustam/Sklad
-	Wordpress
-17
-d/run/media/rustam/Sklad/Wordpress
-	..
-0
-d/run/media/rustam/Sklad
-	XCSoar
-18
-d/run/media/rustam/Sklad/XCSoar
-	..
-0
-d/run/media/rustam/Sklad
-	Condor2
-4
-d/run/media/rustam/Sklad/Condor2
-	..
-0
-d/run/media/rustam/Sklad
-	Condor2
-4
-d/run/media/rustam/Sklad/Condor2
-	Landscapes
-3
-d/run/media/rustam/Sklad/Condor2/Landscapes
-	AA2
-1
-d/run/media/rustam/Sklad/Condor2/Landscapes/AA2
-	Airports
-1
-d/run/media/rustam/Sklad/Condor2/Landscapes
-	Tian-Shan2
+d/home/docker/Projects/innoscripta/frontend/src/HR/Views/HRDashboard
+	styles
 2
-d/run/media/rustam/Sklad/Condor2/Landscapes/Tian-Shan2
+d/home/docker/Projects/innoscripta/frontend/src/HR/Views/HRDashboard/styles
 	..
 0
-d/run/media/rustam/Sklad/Condor2/Landscapes
-	..
-0
-d/run/media/rustam/Sklad/Condor2
-	Tracks
-4
-d/run/media/rustam/Sklad/Condor2/Tracks
-	..
-0
-d/run/media/rustam/Sklad/Condor2
-	CondorUpdater_Setup.exe
-7
-d/run/media/rustam/Sklad
-	Gosts
-7
-d/run/media/rustam
-	79AC835C49BEF452
+d/home/docker/Projects/innoscripta/frontend/src/HR/Views/HRDashboard
+	components
 1
-d/run/media/rustam/79AC835C49BEF452
-	Videos
-5
-d/run/media/rustam/79AC835C49BEF452/Videos
-	Bad.Boys.For.Life.2020.BDRip.2.18Gb.DUB.MegaPeer
-1
-d/run/media/rustam/79AC835C49BEF452/Videos/Bad.Boys.For.Life.2020.BDRip.2.18Gb.DUB.MegaPeer
-	..
-0
-d/run/media/rustam/79AC835C49BEF452/Videos
-	15. Стражи Галактики. Часть 2 (2017) BDRip 720p [HEVC] 10 bit.mkv
-5
-d/run/media
-	..
-0
-d/run
-	tlp
-23
-d/home/rustam
-	Sklad
-32
-d/home/rustam/Sklad
-	..
-0
-d/home/rustam
-	Sklad2
-33
-d/home/rustam/Sklad2
-	..
-0
-d/home/rustam
-	Sklad2
-33
-d/home/rustam/Sklad2
-	..
-0
-d/home/rustam
-	Sklad
-32
-d/home/rustam/Sklad
-	..
-0
-d/home/rustam
-	Sklad
-32
-d/home
-	rustam
-2
-d/
-	run
-12
-d/run
-	media
-11
-d/run/media
-	..
-0
-d/run
-	mount
-12
-d/run/mount
-	..
-0
-d/run
-	mount
-12
-d/
-	run
-12
-d/run
-	media
-11
-d/run/media
-	rustam
-1
-d/run/media/rustam
-	Sklad
-1
-d/run/media/rustam/Sklad
-	Gosts
-7
-d/run/media/rustam
-	Sklad2
-2
-d/run/media/rustam/Sklad2
-	..
-0
-d/run/media/rustam
-	Sklad
-1
-d/run/media/rustam/Sklad
-	Gosts
-7
-d/run/media/rustam
-	Sklad2
-2
-d/run/media/rustam/Sklad2
-	..
-0
-d/run/media/rustam
-	Sklad2
-2
-d/run/media/rustam/Sklad2
-	Condor
-2
-d/run/media/rustam
-	Sklad
-1
-d/run/media/rustam/Sklad
-	Manuals
-11
-d/run/media/rustam/Sklad/Manuals
-	ReactTraining - Learn React Hooks By Building A Real Application
-28
-d/run/media/rustam/Sklad/Manuals/ReactTraining - Learn React Hooks By Building A Real Application
-	78. goodbyeworld.mp4
-40
-d/run/media
-	..
-0
-d/run
-	media
-11
-d/
-	sbin
-13
-d/home/rustam
-	Sklad
-32
-d/home/rustam/Sklad
-	Wallpapers
-16
-d/home/rustam/Sklad/Wallpapers
-	1187316-wallpaper-for-vertical-monitor-1920x1080-mobile.jpg
-6
-d/home/rustam/Sklad/Manuals
-	[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
-5
-d/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
-	02 Take It From The Top - Headers and Navigation
-2
-d/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/02 Take It From The Top - Headers and Navigation
-	013 AppBar Transitions.mp4
-9
-d/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
-	02 Take It From The Top - Headers and Navigation
-2
-d/home/rustam/Sklad/Manuals
-	[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
-4
-d/home/rustam/Sklad
-	Manuals
-11
-d/home/rustam
-	Projects
-30
-d/home/rustam/Projects
-	metronic
+d/home/docker/Projects/innoscripta/frontend/src/HR/Views/HRDashboard/components
+	helpers.js
 8
-d/home/rustam/Projects/metronic
-	demo1
-1
-d/home/rustam/Projects/metronic/demo1
-	webpack.config.js
-10
-d/home/rustam/Projects/metronic
-	demo1
-1
-d/home/rustam/Projects
-	Project 1 Files
+d/home/docker/Projects
+	test
+28
+d/home/docker/Projects/test
+	..
+0
+d/home/docker/Projects
+	test1-front
+29
+d/home/docker/Projects/test1-front
+	src
 5
+d/home/docker/Projects/test1-front/src
+	pages
+7
+d/home/docker/Projects/test1-front/src/pages
+	Cart.js
+1
+d/home/docker/Projects/test1-front/src
+	pages
+7
+d/home/docker/Projects/test1-front
+	src
+5
+d/home/docker/Projects
+	wintex
+39
+d/home/docker/Projects/wintex
+	payment-page-react
+1
+d/home/docker/Projects/wintex/payment-page-react
+	..
+0
+d/home/docker/Projects/wintex
+	pc-backup
+2
+d/home/docker/Projects/wintex/pc-backup
+	..
+0
+d/home/docker/Projects/wintex
+	personal-cabinet
+3
+d/home/docker/Projects/wintex/personal-cabinet
+	..
+0
+d/home/docker/Projects/wintex
+	radiance
+4
+d/home/docker/Projects/wintex/radiance
+	.DS_Store:Zone.Identifier
+5
+d/home/docker/Projects/wintex
+	radiance
+4
+d/home/docker/Projects
+	Devias
+7
+d/home/docker/Projects/Devias
+	.env.example
+5
+d/home/docker/Projects
+	metropolitan
+20
+d/home/docker
+	.ssh
+16
+d/home/docker/Projects
+	wintex
+30
+d/home/docker/Projects/wintex
+	radiance
+4
+d/home/docker/Projects/wintex/radiance
+	build
+2
+d/home/docker/.config/nvim
+	lua
+4
+d/home/docker/.config/nvim/lua
+	custom
+3
+d/home/docker/.config/nvim/lua/custom
+	plugins
+1
+d/home/docker/.config/nvim/lua/custom/plugins
+	configs
+1
+d/home/docker/.config/nvim/lua/custom/plugins/configs
+	..
+0
+d/home/docker/Projects/axes/frontend
+	..
+0
+d/home/docker/Projects/axes
+	frontend
+3
+d/home/docker/Projects/axes/frontend
+	public
+4
+d/home/docker/Projects/axes/frontend/public
+	images
+1
+d/home/docker/Projects/axes/frontend/public/images
+	header
+1
+d/home/docker/Projects/axes/frontend/public/images/header
+	..
+0
+d/home/docker/Projects/axes/frontend/public/images
+	404.png
+5
+d/home/docker/Projects/axes/frontend/public
+	images
+1
+d/home/docker/Projects/axes/frontend/public/images
+	races
+3
+d/home/docker/Projects/axes/frontend/public/images/races
+	..
+0
+d/home/docker/Projects/axes/frontend/public/images
+	video
+4
+d/home/docker/Projects/axes/frontend/public/images/video
+	..
+0
+d/home/docker/Projects/axes/frontend/public/images
+	races
+3
+d/home/docker/Projects/axes/frontend/public/images/races
+	elf
+1
+d/home/docker/Projects/axes/frontend/public/images/races/elf
+	chests
+1
+d/home/docker/Projects/axes/frontend/public/images/races/elf/chests
+	genesis
+1
+d/home/docker/Projects/axes/frontend/public/images/races/elf/chests/genesis
+	..
+0
+d/home/docker/Projects/axes/frontend/public/images/races/elf/chests
+	genesis
+1
+d/home/docker/Projects/axes/frontend/public/images/races/elf
+	chests
+1
+d/home/docker/Projects/axes/frontend/public/images/races
+	human
+2
+d/home/docker/Projects/axes/frontend/public/images/races/human
+	..
+0
+d/home/docker/Projects/axes/frontend/public/images/races
+	human
+2
+d/home/docker/Projects/axes/frontend/public/images
+	video
+4
+d/home/docker/Projects/axes/frontend/public/images/video
+	..
+0
+d/home/docker/Projects/axes/frontend/public/images
+	icons
+2
+d/home/docker/Projects/axes/frontend/public/images/icons
+	..
+0
+d/home/docker/Projects/axes/frontend/public/images
+	races
+3
+d/home/docker/Projects/axes/frontend/public/images/races
+	human
+2
+d/home/docker/Projects/axes/frontend/public/images
+	herocamp
+2
+d/home/docker/Projects/axes/frontend/public/images/herocamp
+	mining_camp_2048.png
+1
+d/home/docker/Projects/axes/frontend/public/images
+	icons
+3
+d/home/docker/Projects/axes/frontend/public/images/icons
+	card_icons
+1
+d/home/docker/Projects/axes/frontend/public/images/icons/card_icons
+	random.svg
+7
+d/home/docker/Projects/axes/frontend/public/images/icons
+	card_icons
+1
+d/home/docker/Projects/axes/frontend/public/images
+	icons
+3
+d/home/docker/Projects/axes/frontend/public
+	images
+1
+d/home/docker/Projects/axes/frontend
+	public
+4
+d/home/docker/Projects/axes
+	frontend
+3
+d/home/docker/Projects
+	intelmax
+8
+d/home/docker/Projects/intelmax
+	liqbot2
+4
+d/home/docker/Projects/intelmax/liqbot2
+	pages
+5
+d/home/docker/Projects/intelmax/liqbot2/pages
+	_document.tsx
+3
+d/home/docker/Projects/intelmax/liqbot2
+	pages
+5
+d/home/docker/Projects/intelmax/liqbot2/pages
+	..
+0
+d/home/docker/Projects/intelmax/liqbot2
+	components
+3
+d/home/docker/Projects/intelmax/liqbot2/components
+	Home
+1
+d/home/docker/Projects/intelmax/liqbot2/components/Home
+	Tokenomics.tsx
+5
+d/home/docker/Projects/intelmax/liqbot2/components
+	Home
+1
+d/home/docker/Projects/intelmax/liqbot2
+	styles
+7
+d/home/docker/Projects/intelmax/liqbot
+	components
+3
+d/home/docker/Projects/intelmax/liqbot/components
+	..
+0
+d/home/docker/Projects/intelmax/liqbot
+	types
+11
+d/home/docker/Projects/intelmax/liqbot/types
+	..
+0
+d/home/docker/Projects/intelmax/liqbot
+	types
+11
+d/home/docker/Projects/intelmax/liqbot/types
+	..
+0
+d/home/docker/Projects/intelmax/liqbot
+	misc
+7
+d/home/docker/Projects/intelmax/liqbot/misc
+	..
+0
+d/home/docker/Projects/intelmax/liqbot
+	lib
+6
+d/home/docker/Projects/intelmax/liqbot/lib
+	venom
+1
+d/home/docker/Projects/intelmax/liqbot/lib/venom
+	..
+0
+d/home/docker/Projects/intelmax/liqbot/lib
+	venom
+1
+d/home/docker/Projects/intelmax/liqbot
+	utils
+13
+d/home/docker/Projects/intelmax/venom-connect
+	lib
+2
+d/home/docker/Projects/intelmax/venom-connect/lib
+	..
+0
+d/home/docker/Projects/intelmax/venom-connect
+	lib
+2
+d/home/docker/Projects/intelmax/venom-connect/lib
+	index.js
+1
 d
 
 # Right window history (oldest to newest):
-D/home/rustam/Sklad/Wordpress/themes
-	..
-0
-D/home/rustam/Sklad/Wordpress
-	themes
-3
-D/home/rustam/Sklad
-	Projects
-14
-D/home/rustam/Sklad/Projects
-	Bootstrap
-1
-D/home/rustam/Sklad/Projects/Bootstrap
-	metronic-responsive-admin-dashboard-template618.zip
-8
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip
-	metronic_v6.1.8
-1
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8
-	design
-1
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/design
-	..
-0
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8
-	theme
-3
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/theme
-	..
-0
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8
-	doc
-2
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/doc
-	..
-0
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8
-	design
-1
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/design
-	..
-0
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8
-	design
-1
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/design
-	psd
-1
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8
-	design
-1
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip
-	metronic_v6.1.8
-1
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8
-	theme
-3
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/theme
-	react
-3
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/theme/react
-	demo1
-1
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/theme/react/demo1
-	..
-0
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/theme/react
-	..
-0
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/theme
-	react
-3
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/theme/react
-	demo2
-2
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/theme
-	default
-2
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/theme/default
-	..
-0
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/theme
-	angular
-1
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/theme/angular
-	..
-0
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/theme
-	angular
-1
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8
-	design
-1
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/design
-	psd
-1
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/design/psd
-	Homepage Demos
-1
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/design/psd/Homepage Demos
-	..
-0
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/design/psd
-	Inner Pages
-2
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/design/psd/Inner Pages
-	..
-0
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/design/psd
-	Widgets
-3
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/design/psd/Widgets
-	..
-0
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/design/psd
-	Widgets
-3
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/design
-	metronic_figma.fig
-2
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8
-	doc
-2
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/doc
-	wizard.html
-40
-D/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8
-	doc
-2
-D/home/rustam/.local/share/vifm/fuse
-	..
-0
-D/home/rustam/.local/share/vifm
-	fuse
-1
-D/home/rustam/.local/share
-	vifm
-36
-D/home/rustam/.local
-	share
-3
-D/home/rustam
-	Sklad
-29
-D/home/rustam/Sklad
-	Wordpress
-17
-D/home/rustam
-	Sklad2
-30
-D/home/rustam/Sklad2
-	Videos
-6
-D/home/rustam/Sklad2/Videos
-	15. Стражи Галактики. Часть 2 (2017) BDRip 720p [HEVC] 10 bit.mkv
-4
-D/home/rustam/Sklad2
-	Manuals
-3
-D/home/rustam/Sklad2/Manuals
-	[05-2020] the-python-mega-course
-1
-D/home/rustam/Sklad2
-	Music
-4
-D/home/rustam/Sklad2/Music
-	..
-0
-D/home/rustam/Sklad2
-	Videos
-6
-D/home/rustam/Sklad2/Videos
-	15. Стражи Галактики. Часть 2 (2017) BDRip 720p [HEVC] 10 bit.mkv
-4
-D/home/rustam/Sklad2
-	Condor
-2
-D/home/rustam/Sklad2/Condor
-	..
-0
-D/home/rustam/Sklad2
-	Manuals
-3
-D/home/rustam/Sklad2/Manuals
-	[05-2020] the-python-mega-course
-1
-D/home/rustam/Sklad2
-	Manuals
-3
-D/home/rustam
-	snap
-31
-D/home/rustam/snap
-	..
-0
-D/home/rustam
-	Sklad
-29
-D/home/rustam/Sklad
-	Manuals
-11
-D/home/rustam/Sklad/Manuals
-	[sliwbl.biz] [javascript] Интенсив по TypeScript
-6
-D/home/rustam/Sklad/Manuals/[sliwbl.biz] [javascript] Интенсив по TypeScript
-	..
-0
-D/home/rustam/Sklad/Manuals
-	[sliwbl.biz] [javascript] Интенсив по TypeScript
-6
-D/home/rustam/Sklad/Manuals/[sliwbl.biz] [javascript] Интенсив по TypeScript
-	..
-0
-D/home/rustam/Sklad/Manuals
-	[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
-4
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
-	01 Introduction
-1
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/01 Introduction
-	..
-0
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
-	02 Take It From The Top - Headers and Navigation
-2
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/02 Take It From The Top - Headers and Navigation
-	023 Buttons Overview.en_US.srt
-29
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
-	03 Adding Header Features - Menus and Responsive Design
-3
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/03 Adding Header Features - Menus and Responsive Design
-	028 Section 3 Intro.mp4
-2
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
-	03 Adding Header Features - Menus and Responsive Design
-3
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/03 Adding Header Features - Menus and Responsive Design
-	042 Using Lists - Setup.en_US.srt
-29
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
-	04 Bottoms Up! Footers and Basic Layouts
-4
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/04 Bottoms Up! Footers and Basic Layouts
-	048 Section 4 Intro.mp4
-2
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
-	06 Complex Layouts
-6
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/06 Complex Layouts
-	..
-0
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
-	05 Hitting The Ground Running - Animations and The Landing Page
-5
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/05 Hitting The Ground Running - Animations and The Landing Page
-	..
-0
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
-	07 Inputs, Validation, and Confirmation
+D/mnt/c/Projects/Innoscripta
+	Pressentation Validation From
 7
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/07 Inputs, Validation, and Confirmation
+D/mnt/c/Projects/Innoscripta/Pressentation Validation From
 	..
 0
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
-	10 Putting It All Together - Estimate Page
-10
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/10 Putting It All Together - Estimate Page
-	..
-0
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
-	16 BONUS VIDEOS
-16
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/16 BONUS VIDEOS
-	..
-0
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
-	15 Project Manager
-15
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/15 Project Manager
-	..
-0
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
-	13 Deployment
-13
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/13 Deployment
-	..
-0
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
-	12 Cross-Browser Support
-12
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/12 Cross-Browser Support
-	..
-0
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs
-	01 Introduction
+D/mnt/c/Projects/Innoscripta
+	Pressentation Validation From
+7
+D/mnt/c/Projects
+	Innoscripta
+5
+D/mnt/c
+	Projects
+25
+D/mnt
+	c
 1
-D/home/rustam/Sklad/Manuals/[06-2020] implement-high-fidelity-designs-with-material-ui-and-reactjs/01 Introduction
-	006 Project Files and Resources.html
-14
+D/
+	home
+4
+D/home
+	docker
+1
+D/home/docker
+	Projects
+23
+D/home/docker/Projects
+	innoscripta
+13
+D/home/docker/Projects/innoscripta
+	frontend
+5
+D/home/docker/Projects/innoscripta/frontend
+	src
+7
+D/home/docker/Projects/innoscripta/frontend/src
+	HR
+13
+D/home/docker/Projects/innoscripta/frontend/src/HR
+	Views
+6
+D/home/docker/Projects/innoscripta/frontend/src/HR/Views
+	EmployeesNetChange
+5
+D/home/docker/Projects/innoscripta/frontend/src/HR/Views/EmployeesNetChange
+	components
+1
+D/home/docker/Projects/innoscripta/frontend/src/HR/Views/EmployeesNetChange/components
+	charts
+1
+D/home/docker/Projects/innoscripta/frontend/src/HR/Views/EmployeesNetChange/components/charts
+	styles
+1
+D/home/docker/Projects/innoscripta/frontend/src/HR/Views/EmployeesNetChange/components/charts/styles
+	..
+0
+D/home/docker/Projects/innoscripta/frontend/src/HR/Views/EmployeesNetChange/components/charts
+	..
+0
+D/home/docker/Projects/innoscripta/frontend/src/HR/Views/EmployeesNetChange/components
+	charts
+1
+D/home/docker/Projects/innoscripta/frontend/src/HR/Views/EmployeesNetChange
+	..
+0
+D/home/docker/Projects/innoscripta/frontend/src/HR/Views
+	EmployeesNetChange
+5
+D/home/docker/Projects/innoscripta/frontend/src/HR/Views/EmployeesNetChange
+	index.js
+3
+D/home/docker/Projects/innoscripta/frontend/src/HR/Views
+	EmployeesNetChange
+5
+D/home/docker/Projects/innoscripta/frontend/src/HR
+	Views
+6
+D/home/docker/Projects/innoscripta/frontend/src/HR/Views
+	EmployeeStatisticsDashboard
+6
+D/home/docker/Projects/innoscripta/frontend/src/HR/Views/EmployeeStatisticsDashboard
+	components
+1
+D/home/docker/Projects/innoscripta/frontend/src/HR/Views/EmployeeStatisticsDashboard/components
+	charts
+1
+D/home/docker/Projects/innoscripta/frontend/src/HR/Views/EmployeeStatisticsDashboard/components/charts
+	..
+0
+D/home/docker/Projects/innoscripta/frontend/src/HR/Views/EmployeeStatisticsDashboard/components
+	dashboard.config.js
+4
+D/home/docker/Projects
+	..
+0
+D/mnt/c
+	Projects
+25
+D/mnt/c/Projects
+	Wintex
+16
+D/mnt/c/Projects/Wintex
+	images
+1
+D/mnt/c/Projects/Wintex/images
+	portal.png
+3
+D/mnt/c/Projects
+	Intelmax
+7
+D/mnt/c/Projects/Intelmax
+	2b5d11821532711239b49a2f1c74cc68.svg
+2
+D/mnt/c/Projects
+	Intelmax
+7
+D/mnt/c/Projects/Intelmax
+	..
+0
+D/home/docker
+	Projects
+23
+D/home/docker/Projects
+	intelmax
+8
+D/home/docker/Projects/intelmax
+	flatqube-frontend
+2
+D/home/docker/Projects/intelmax/flatqube-frontend
+	src
+6
+D/home/docker/Projects/intelmax/flatqube-frontend/src
+	modules
+7
+D/home/docker/Projects/intelmax/flatqube-frontend/src/modules
+	Builder
+3
+D/home/docker/Projects/intelmax/flatqube-frontend/src
+	modules
+7
+D/home/docker/Projects/intelmax/flatqube-frontend/src/modules
+	Pools
+9
+D/home/docker/Projects/intelmax/flatqube-frontend/src/modules/Pools
+	..
+0
+D/home/docker/Projects/intelmax/flatqube-frontend/src/modules
+	Pool
+8
+D/home/docker/Projects/intelmax/flatqube-frontend/src/modules/Pool
+	types.ts
+7
+D/home/docker/Projects/intelmax/flatqube-frontend/src/modules
+	Pools
+9
+D/home/docker/Projects/intelmax/flatqube-frontend/src/modules/Pools
+	components
+1
+D/home/docker/Projects/intelmax/flatqube-frontend/src/modules/Pools/components
+	..
+0
+D/home/docker/Projects/intelmax/flatqube-frontend/src/modules/Pools
+	hooks
+2
+D/home/docker/Projects/intelmax/flatqube-frontend/src/modules/Pools/hooks
+	..
+0
+D/home/docker/Projects/intelmax/flatqube-frontend/src/modules/Pools
+	stores
+3
+D/home/docker/Projects/intelmax/flatqube-frontend/src/modules/Pools/stores
+	..
+0
+D/home/docker/Projects/intelmax/flatqube-frontend/src/modules/Pools
+	..
+0
+D/home/docker/Projects/intelmax/flatqube-frontend/src/modules
+	Pairs
+7
+D/home/docker/Projects/intelmax/flatqube-frontend/src/modules/Pairs
+	types.ts
+9
+D/home/docker/Projects/intelmax/flatqube-frontend/src/modules
+	Pairs
+7
+D/home/docker/Projects/intelmax/flatqube-frontend/src
+	utils
+11
+D/home/docker/Projects/intelmax/flatqube-frontend/src/utils
+	formatted-balance.ts
+9
+D/home/docker/Projects/intelmax/flatqube-frontend/src
+	..
+0
+D/home/docker/Projects/intelmax/flatqube-frontend
+	src
+6
+D/home/docker/Projects/intelmax/flatqube-frontend/src
+	misc
+6
+D/home/docker/Projects/intelmax/flatqube-frontend/src/misc
+	..
+0
+D/home/docker/Projects/intelmax/flatqube-frontend/src
+	styles
+10
+D/home/docker/Projects/intelmax/flatqube-frontend
+	.babelrc
+7
+D/home/docker/Projects/intelmax
+	explorer-broxus
+3
+D/home/docker/Projects/intelmax/explorer-broxus
+	..
+0
+D/home/docker/Projects/intelmax
+	explorer-frontend
+4
+D/home/docker/Projects/intelmax/explorer-frontend
+	src
+8
+D/home/docker/Projects/intelmax/explorer-frontend/src
+	lib
+7
+D/home/docker/Projects/intelmax/explorer-frontend/src/lib
+	..
+0
+D/home/docker/Projects/intelmax/explorer-frontend/src
+	..
+0
+D/home/docker/Projects/intelmax/explorer-frontend
+	config
+3
+D/home/docker/Projects/intelmax/explorer-frontend/config
+	..
+0
+D/home/docker/Projects/intelmax/explorer-frontend
+	explorer-broxus
+4
+D/home/docker/Projects/intelmax/explorer-frontend/explorer-broxus
+	..
+0
+D/home/docker/Projects/intelmax/explorer-frontend
+	frontend
+5
+D/home/docker/Projects/intelmax/explorer-frontend/frontend
+	..
+0
+D/home/docker/Projects/intelmax/explorer-frontend
+	src
+9
+D/home/docker/Projects/intelmax/explorer-frontend/src
+	..
+0
+D/home/docker/Projects/intelmax/explorer-frontend
+	config
+3
+D/home/docker/Projects/intelmax/explorer-frontend/config
+	..
+0
+D/home/docker/Projects/intelmax/explorer-frontend
+	build
+2
+D/home/docker/Projects/intelmax/explorer-frontend/build
+	..
+0
+D/home/docker/Projects/intelmax/explorer-frontend
+	frontend
+5
+D/home/docker/Projects/intelmax/explorer-frontend/frontend
+	..
+0
+D/home/docker/Projects/intelmax/explorer-frontend
+	src
+9
+D/home/docker/Projects/intelmax/explorer-frontend/src
+	lib
+7
+D/home/docker/Projects/intelmax/explorer-frontend/src/lib
+	..
+0
+D/home/docker/Projects/intelmax/explorer-frontend/src
+	lib
+7
+D/home/docker/Projects/intelmax/explorer-frontend/src/lib
+	index.js
+1
+D/home/docker/Projects/intelmax/explorer-frontend/src
+	lib
+7
+D/home/docker/Projects/intelmax/explorer-frontend
+	src
+8
+D/home/docker/Projects/intelmax/explorer-frontend/src
+	lib
+7
+D/home/docker/Projects/intelmax/explorer-frontend/src/lib
+	index.js.LICENSE.txt
+2
 D
 
 # Command line history (oldest to newest):
-:ln -s /media/Sklad/Pictures Pictures
-:h
-:!yay remove gvim
-:set vicmd="nvim"
-:set vicmd="emacsclient"
-:?
-:help
-:tabnew tests
-:tabnew
-:tabnext
-:tabclose
-:view
-:marks
-:! feh
-:! youch vifmstart
-:touch vifmstart
-:touch vifmimg
-:touch vifmimgw3
-:! chmod +x vifm*
-:cd usr/local/bin
-:cd /usr/local/bin
-:! sudo cp vifmimgw3 /usr/local/bin
-:set viewcolumns=-80%{name},15%{ext},5%{mtime}
 :lstrash
 :sort
 :set viewcolumns=-80%{name},15%{ext},5%{size}
@@ -732,7 +709,6 @@ D
 :noremap
 :nmap
 :mkdir  "Gostinfo Parser"
-:mkdir  "backup"
 :colorscheme
 :mkdir  ".ctags.d"
 :touc
@@ -749,27 +725,56 @@ D
 :!rm -rf ./*.vtt
 :mkdir  "Elastic_Search"
 :mkdir  "woocommerce-payme-gateway"
-:cd ~
-:Q
 :windo set viewcolumns=-{name}..
 :mkdir  "Manuals"
 :cd /run/media
 :qq
 :! mpv .
 :! mpv *.mp4
-:!vlc .
-:!touch mouse-follows-focus.py
-:!chmod +x mouse-follows-focus.py
-:!./mouse-follows-focus.py
-:cd ""
-:cd "l"
-:mkdir  "metronic"
+:./tp,
+:./tpm
+:mkdir  "Metronic"
+:mkdir  "frontend""
+:!cd /mnt/c/projects
+:mkdir  "assets"
+:mkdir  "fonts"
+:mkdir  "public"
+:mkdir  "views"
+:mkdir  "images"
+:mv detect-browser images
+:mkdir  "backup"
+:mkdir  "src"
+:mkdir  "lib"
+:!"
+:?
+:cd ~/.config/vifm/
+::q
+:mkdir  "report"
+:cd  ~/Projects/innoscripta/ui-kit
+:mkdir  "TextInput""
+:Q
+:lazygit
+:help
+:mkdir  "EmployeeStatisticsDashboard"
+:git status
+:mkdir configs
+:cd /mnt/c
+:mkdir herocamp
+:qa
+:cd ~
+:mkdir  "types"
+:.,.+0q
 :q
 
 # Search history (oldest to newest):
 /django
 /input
 /mpv
+/zero
+/mark
+/fir19k
+/python
+/mater
 /reac
 /\.confi
 /vif
@@ -803,7 +808,6 @@ D
 /my
 /bs
 /wind
-/pane
 /.conf
 /proj
 /app
@@ -811,12 +815,14 @@ D
 /vifm
 /i3ex
 /ctag
+/vim
 /tmp
 /.cac
 /pacui
 /tags
 /.confi
 /nvim
+/scrip
 /pictu
 /zsh
 /i3
@@ -829,13 +835,24 @@ D
 /ka
 /woer
 /config
-/scrip
-/zero
-/vim
-/mark
-/fir19k
-/python
-/mater
+/spac
+/ho
+/side
+/autoco
+/inde
+/docu
+/index
+/req
+/link
+/toas
+/tex
+/compo
+/ui
+/utih
+/search
+/pane
+/react-sc
+/inn
 
 # Prompt history (oldest to newest):
 pAdvanced Product Feeds 1.0.100.zip
@@ -847,6 +864,27 @@ pconfig
 pbkp.2019-01-19.278200118.tar.gz
 pavahi
 pinstall.html
+p.tmux.conf
+prossignol1.png
+plogo.svg
+pban_1.png
+phero.js
+p.elsintrx.json
+p.env.example
+p.env.local
+pCandidateTaxFormOld
+pCaseStudiesOld
+pContractSignOld
+pFirstTalkAppointmentOld
+pSecondTalkAppointmentOld
+pCandidateTaxForm
+pQuitProcessOld
+pThirdTalkAppointmentOld
+pdist
+p.git
+pEmployeeStatisticsDashboard.js
+pPool.types.ts
+pPairs.types.ts
 
 # Local filter history (oldest to newest):
 |M
@@ -855,7 +893,8 @@ pinstall.html
 |^\.
 
 # Registers:
-""/home/rustam/.local/share/vifm/fuse/001_metronic-responsive-admin-dashboard-template618.zip/metronic_v6.1.8/design/metronic_figma.fig
+""/home/docker/Projects/intelmax/venom-connect/lib/index.js
+""/home/docker/Projects/intelmax/venom-connect/lib/index.js.map
 
 # Directory stack (oldest to newest):
 
@@ -980,6 +1019,114 @@ t/run/media/rustam/Sklad/.vifm-Trash-1000/000_09 Building Lists of Records
 	/run/media/rustam/Sklad/Manuals/[04-2020] react-redux/09 Building Lists of Records
 t/run/media/rustam/Sklad/.vifm-Trash-1000/000_.fuse_hidden0000006300000001
 	/run/media/rustam/Sklad/Manuals/[Дмитрий Лаврик] React. Интенсивный курс для программистов/Урок 8/.fuse_hidden0000006300000001
+t/mnt/c/.vifm-Trash-1000/000_Untitled.ipynb
+	/mnt/c/Projects/russiangost/rgost/Untitled.ipynb
+t/home/docker/.local/share/vifm/Trash/000_1
+	/home/docker/Projects/iluy/fonts/1
+t/home/docker/.local/share/vifm/Trash/000_ban_1 2.png
+	/home/docker/Projects/iluy/images/ban_1 2.png
+t/home/docker/.local/share/vifm/Trash/000_context
+	/home/docker/Projects/innoscripta/external-forms-frontend/src/context
+t/home/docker/.local/share/vifm/Trash/000_components
+	/home/docker/Projects/innoscripta/external-forms-frontend/src/routes/components
+t/home/docker/.local/share/vifm/Trash/000_FirstTalkAppointment
+	/home/docker/Projects/innoscripta/external-forms-frontend/src/views/HR/FirstTalkAppointment
+t/home/docker/.local/share/vifm/Trash/000_AppointmentActions
+	/home/docker/Projects/innoscripta/ims-frontend/src/views/HR/components/AppointmentActions
+t/home/docker/.local/share/vifm/Trash/000_index.js
+	/home/docker/Projects/innoscripta/innoscripta-field-validators/index.js
+t/home/docker/.local/share/vifm/Trash/000_validateComponents.js
+	/home/docker/Projects/innoscripta/innoscripta-field-validators/validateComponents.js
+t/home/docker/.local/share/vifm/Trash/000_validationSchema.js
+	/home/docker/Projects/innoscripta/innoscripta-field-validators/validationSchema.js
+t/home/docker/.local/share/vifm/Trash/000_validateComponents.jsx
+	/home/docker/Projects/innoscripta/innoscripta-field-validators/validateComponents.jsx
+t/home/docker/.local/share/vifm/Trash/000_util
+	/home/docker/Projects/innoscripta/innoscripta-field-validators/util
+t/home/docker/.local/share/vifm/Trash/000_assets
+	/home/docker/Projects/innoscripta/innoscripta-field-validators/assets
+t/home/docker/.local/share/vifm/Trash/000_.zsh_history_bad
+	/home/docker/.zsh_history_bad
+t/mnt/c/.vifm-Trash-1000/000_IMG_2020.HEIC
+	/mnt/c/Projects/Innoscripta/Images/IMG_2020.HEIC
+t/home/docker/.local/share/vifm/Trash/000_GMap.jsx
+	/home/docker/Projects/innoscripta/opportun-x/src/components/Company/GMap.jsx
+t/home/docker/.local/share/vifm/Trash/000_index.html
+	/home/docker/Projects/index.html
+t/home/docker/.local/share/vifm/Trash/000_package-lock.json
+	/home/docker/Projects/package-lock.json
+t/home/docker/.local/share/vifm/Trash/000_package.json
+	/home/docker/Projects/package.json
+t/home/docker/.local/share/vifm/Trash/000_test.js
+	/home/docker/Projects/test.js
+t/home/docker/.local/share/vifm/Trash/000_tsconfig.json
+	/home/docker/Projects/tsconfig.json
+t/home/docker/.local/share/vifm/Trash/000_test
+	/home/docker/Projects/test
+t/home/docker/.local/share/vifm/Trash/000_advanced-react-hooks
+	/home/docker/Projects/advanced-react-hooks
+t/home/docker/.local/share/vifm/Trash/000_advanced-react-patterns
+	/home/docker/Projects/advanced-react-patterns
+t/home/docker/.local/share/vifm/Trash/000_bookshelf
+	/home/docker/Projects/bookshelf
+t/home/docker/.local/share/vifm/Trash/000_classic-react-workshop
+	/home/docker/Projects/classic-react-workshop
+t/home/docker/.local/share/vifm/Trash/000_coreui-admin
+	/home/docker/Projects/coreui-admin
+t/home/docker/.local/share/vifm/Trash/000_Devias
+	/home/docker/Projects/Devias
+t/home/docker/.local/share/vifm/Trash/000_gatsbytest
+	/home/docker/Projects/gatsbytest
+t/home/docker/.local/share/vifm/Trash/000_gittrending
+	/home/docker/Projects/gittrending
+t/home/docker/.local/share/vifm/Trash/000_grafana
+	/home/docker/Projects/grafana
+t/home/docker/.local/share/vifm/Trash/000_isomorphic
+	/home/docker/Projects/isomorphic
+t/home/docker/.local/share/vifm/Trash/000_make-react-apps
+	/home/docker/Projects/make-react-apps
+t/home/docker/.local/share/vifm/Trash/000_material-ui-course-create-react-app
+	/home/docker/Projects/material-ui-course-create-react-app
+t/home/docker/.local/share/vifm/Trash/000_polaris-react
+	/home/docker/Projects/polaris-react
+t/home/docker/.local/share/vifm/Trash/000_react-fundamentals
+	/home/docker/Projects/react-fundamentals
+t/home/docker/.local/share/vifm/Trash/000_react-hooks
+	/home/docker/Projects/react-hooks
+t/home/docker/.local/share/vifm/Trash/000_react-performance
+	/home/docker/Projects/react-performance
+t/home/docker/.local/share/vifm/Trash/000_react-suspense
+	/home/docker/Projects/react-suspense
+t/home/docker/.local/share/vifm/Trash/000_react-workshop
+	/home/docker/Projects/react-workshop
+t/home/docker/.local/share/vifm/Trash/000_reactjs-crypto-api-dashboard
+	/home/docker/Projects/reactjs-crypto-api-dashboard
+t/home/docker/.local/share/vifm/Trash/000_Shreyu
+	/home/docker/Projects/Shreyu
+t/home/docker/.local/share/vifm/Trash/000_test1-front
+	/home/docker/Projects/test1-front
+t/home/docker/.local/share/vifm/Trash/000_test2-frontend
+	/home/docker/Projects/test2-frontend
+t/home/docker/.local/share/vifm/Trash/000_test3-api
+	/home/docker/Projects/test3-api
+t/home/docker/.local/share/vifm/Trash/000_test5
+	/home/docker/Projects/test5
+t/home/docker/.local/share/vifm/Trash/000_top-app-demo
+	/home/docker/Projects/top-app-demo
+t/home/docker/.local/share/vifm/Trash/000_typescript-fundamentals
+	/home/docker/Projects/typescript-fundamentals
+t/home/docker/.local/share/vifm/Trash/000_udemy-REACT-QUERY
+	/home/docker/Projects/udemy-REACT-QUERY
+t/home/docker/.local/share/vifm/Trash/000_veltrix
+	/home/docker/Projects/veltrix
+t/home/docker/.local/share/vifm/Trash/000_vite-react-tailwind-starter
+	/home/docker/Projects/vite-react-tailwind-starter
+t/home/docker/.local/share/vifm/Trash/000_Vuexy
+	/home/docker/Projects/Vuexy
+t/home/docker/.local/share/vifm/Trash/000_rewards.svg
+	/home/docker/Projects/axes/frontend/public/images/icons/card_icons/rewards.svg
+t/home/docker/.local/share/vifm/Trash/000_lib
+	/home/docker/Projects/intelmax/explorer-frontend/src/lib
 
 # State:
 f

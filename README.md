@@ -1,3 +1,5 @@
 # dotfiles
 
-Mostly for integration for KDE Plasma and bspwm. 
+For nvim it is custom folder for NVCHAD
+
+for tmux - custom palenight theme
