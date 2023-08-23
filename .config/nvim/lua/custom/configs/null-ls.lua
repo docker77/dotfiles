@@ -9,15 +9,14 @@ local b = null_ls.builtins
 local sources = {
 
   -- webdev stuff
-  -- b.formatting.deno_fmt,
-  b.formatting.prettierd,
+  b.formatting.prettierd, -- choosed deno for ts/js files cuz its very fast!
+  b.formatting.prettier.with { filetypes = { "html", "markdown", "css" } }, -- so prettier works only on these filetypes
 
   -- Lua
   b.formatting.stylua,
 
-  -- Shell
-  b.formatting.shfmt,
-  b.diagnostics.shellcheck.with { diagnostics_format = "#{m} [#{c}]" },
+  -- cpp
+  b.formatting.clang_format,
 }
 
 null_ls.setup {
@@ -32,9 +31,9 @@ null_ls.setup {
         buffer = bufnr,
         callback = function()
           -- on 0.8, you should use vim.lsp.buf.format({ bufnr = bufnr }) instead
-          vim.lsp.buf.format({ bufnr = bufnr })
+          vim.lsp.buf.format { bufnr = bufnr }
         end,
-     })
+      })
     end
   end,
 }
